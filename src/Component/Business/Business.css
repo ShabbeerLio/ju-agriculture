@@ -13,9 +13,47 @@
 }
 
 .services-cards-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    overflow: hidden;
+    -webkit-transition: top .5s, right .5s, bottom .5s, left .5s;
+    -o-transition: top .5s, right .5s, bottom .5s, left .5s;
+    transition: top .5s, right .5s, bottom .5s, left .5s;
+}
+
+.services-cards-image img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: 50% 50%;
+    object-position: 50% 50%;
+    font-family: "object-fit: cover; object-position: 50% 50%";
+    -webkit-transition: opacity .2s, -webkit-transform .7s cubic-bezier(.25, .46, .45, .94);
+    transition: opacity .2s, -webkit-transform .7s cubic-bezier(.25, .46, .45, .94);
+    -o-transition: transform .7s cubic-bezier(.25, .46, .45, .94), opacity .2s;
+    transition: transform .7s cubic-bezier(.25, .46, .45, .94), opacity .2s;
+    transition: transform .7s cubic-bezier(.25, .46, .45, .94), opacity .2s, -webkit-transform .7s cubic-bezier(.25, .46, .45, .94);
+}
+
+.services-cards-title{
     position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
     justify-content: center;
     width: 100%;
     height: 100%;
@@ -26,17 +64,6 @@
     -o-transition: background-color .3s ease-in-out;
     transition: background-color .3s ease-in-out;
 }
-
-.services-cards-image img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    object-fit: cover;
-    width: 100%;
-    height: 250px;
-}
-
 .services-cards-title h5 {
     color: black;
     padding: 5px;
@@ -60,38 +87,173 @@
 
 .boxes1 {
     grid-area: box1;
+        height: 325px;
+            position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+    -webkit-transition: padding .5s;
+    -o-transition: padding .5s;
+    transition: padding .5s;
 }
 
 .boxes2 {
     grid-area: box2;
+        height: 325px;
+            position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+    -webkit-transition: padding .5s;
+    -o-transition: padding .5s;
+    transition: padding .5s;
 }
 
 .boxes3 {
     grid-area: box3;
+        height: 325px;
+            position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+    -webkit-transition: padding .5s;
+    -o-transition: padding .5s;
+    transition: padding .5s;
 }
 
 .boxes4 {
     grid-area: box4;
+        height: 325px;
+            position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+    -webkit-transition: padding .5s;
+    -o-transition: padding .5s;
+    transition: padding .5s;
 }
 
 .boxes5 {
     grid-area: box5;
+        height: 325px;
+            position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+    -webkit-transition: padding .5s;
+    -o-transition: padding .5s;
+    transition: padding .5s;
 }
 
 .boxes6 {
     grid-area: box6;
+        height: 325px;
+            position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+    -webkit-transition: padding .5s;
+    -o-transition: padding .5s;
+    transition: padding .5s;
 }
 
 .boxes7 {
     grid-area: box7;
+        height: 325px;
+            position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+    -webkit-transition: padding .5s;
+    -o-transition: padding .5s;
+    transition: padding .5s;
 }
 
 .boxes8 {
     grid-area: box8;
+        height: 325px;
+            position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+    -webkit-transition: padding .5s;
+    -o-transition: padding .5s;
+    transition: padding .5s;
 }
 
 .boxes9 {
     grid-area: box9;
+        height: 325px;
+            position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+    -webkit-transition: padding .5s;
+    -o-transition: padding .5s;
+    transition: padding .5s;
 }
 
 .WorkBox {
@@ -105,12 +267,6 @@
     grid-template-columns: repeat(4, 1fr);
 }
 
-/* .WorkBox img {
-    aspect-ratio: 3/2;
-    width: 100%;
-    /* height: 250px; */
-/* object-fit: cover;
-}  */
 
 /* ..../...... */
 
