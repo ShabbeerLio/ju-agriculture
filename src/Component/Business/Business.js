@@ -20,13 +20,6 @@ const Business = () => {
     //   }, []);
 
     const workData = [
-        // {
-        //     id: 1,
-        //     className: "boxes1",
-        //     title: "name",
-        //     cover:
-        //         "https://images.unsplash.com/photo-1677794438539-b21f8632ab70?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        // },
         {
             id: 6,
             className: "boxes6",
@@ -76,7 +69,7 @@ const Business = () => {
             cover:
                 "https://indiaforensic.com/certifications/wp-content/uploads/2017/01/agriculture.jpg",
         },
-       
+
     ];
 
     return (
@@ -86,11 +79,13 @@ const Business = () => {
                     <div className="WorkBox">
                         <div className="boxes1" >
                             <div className="services-cards-title">
-                                <h2>Our <span>Business</span></h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate hic ad eligendi obcaecati totam, ratione placeat rem quod laborum odio.</p>
+                                <div className="title-box">
+                                    <h2>Our <span>Business</span></h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate hic ad eligendi obcaecati totam, ratione placeat rem quod laborum odio.</p>
+                                </div>
                             </div>
                         </div>
-                        {workData.map((item) => (
+                        {BusinessData.map((item) => (
                             <>
                                 <BusinessCard item={item} />
                             </>
