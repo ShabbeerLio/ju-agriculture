@@ -1,11 +1,12 @@
 const BusinessData = [
     {
-        id: 6,
-        className: "boxes6",
-        title: "Weed Control",
+        id: 2,
+        className: "boxes2",
+        title: 'Biological',
         cover:
-            "https://devdiscourse.blob.core.windows.net/devnews/09_03_2023_16_36_36_6427983.jpg",
+            "https://img.freepik.com/free-photo/detail-rice-plant-sunset-valencia-with-plantation-out-focus-rice-grains-plant-seed_181624-25838.jpg?size=626&ext=jpg&ga=GA1.1.1395880969.1709510400&semt=sph",
     },
+
     {
         id: 3,
         className: "boxes3",
@@ -28,11 +29,11 @@ const BusinessData = [
             "https://media.licdn.com/dms/image/C5612AQGNW6vHcLjcOA/article-cover_image-shrink_720_1280/0/1617441916952?e=2147483647&v=beta&t=IJaioK1_vhUnkSq2kbq6vW7G4JPywLbyKn5ObBYIXA4",
     },
     {
-        id: 2,
-        className: "boxes2",
-        title: 'Biological',
+        id: 6,
+        className: "boxes6",
+        title: "Weed Control",
         cover:
-            "https://img.freepik.com/free-photo/detail-rice-plant-sunset-valencia-with-plantation-out-focus-rice-grains-plant-seed_181624-25838.jpg?size=626&ext=jpg&ga=GA1.1.1395880969.1709510400&semt=sph",
+            "https://devdiscourse.blob.core.windows.net/devnews/09_03_2023_16_36_36_6427983.jpg",
     },
     {
         id: 7,

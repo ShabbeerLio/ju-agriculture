@@ -27,4 +27,16 @@ const ImageGallery =[
         id: 7,
         cover:"",
     },
+    {
+        id: 8,
+        cover:"",
+    },
+    {
+        id: 9,
+        cover:"",
+    },
+    {
+        id: 10,
+        cover:"",
+    },
 ]

@@ -81,16 +81,16 @@ const Navbar = (props) => {
                                         <a className="nav-link" href="#business" onClick={closeMenu}>Our Business</a>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" href="#business" onClick={closeMenu}>Gallery</a>
+                                        <a className="nav-link" href="#gallery" onClick={closeMenu}>Gallery</a>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" href="#business" onClick={closeMenu}>Careers</a>
+                                        <a className="nav-link" href="#careers" onClick={closeMenu}>Careers</a>
                                     </li>
                                     {/* <li className="nav-item">
                                         <a className="nav-link" href="#business" onClick={closeMenu}>Employees</a>
                                     </li> */}
                                     <li className="nav-item">
-                                        <a className="nav-link" href="#business" onClick={closeMenu}>Blogs</a>
+                                        <a className="nav-link" href="#blogs" onClick={closeMenu}>Blogs</a>
                                     </li>
                                     <li className="nav-item">
                                         <a className="nav-link" href="#contactUs" onClick={closeMenu}>Contact Us</a>
