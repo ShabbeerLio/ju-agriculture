@@ -19,36 +19,116 @@
 }
 
 .about-title h2 {
-    color: #212121;
-    font-size: 36px;
-    line-height: 35px;
-    padding-bottom: 23px;
-    font-weight: bold;
-    text-align: center;
+    line-height: 1.2;
+    font-weight: 900;
+    font-family: Raleway, sans-serif;
+    text-transform: uppercase;
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: color .3s ease-in-out;
 }
-.about-title h2 span{
+
+
+
+.about-title h2 span {
     padding: 0px 10px;
     color: #ffffff;
     font-size: 30px;
     line-height: 35px;
     font-weight: bolder;
-    text-align: center;
 }
-.about-title h2 span:first-child{
+
+
+.about-title h2 span:first-child {
     background-color: #0086cf;
 }
-.about-title h2 span:last-child{
+
+.about-title h2 span:nth-child(2) {
     margin-left: 2px;
     background-color: #94c11c;
 }
 
+.about-title h2 span:last-child {
+    font-weight: 100;
+    color: #333;
+}
+
 .about-detail p {
-    margin: 0 0 0px 0;
+    margin: 0;
     font-weight: 400;
     font-size: 16px;
     color: #70778a;
     padding-bottom: 10px;
 }
+
+.about-left-detail {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.about-left-detail p {
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    color: #70778a;
+    padding: 10px 0;
+}
+
+.about-detail-left {
+    width: 50%;
+}
+
+.about-detail-right {
+    width: 50%;
+}
+
+.detail-heading {
+    display: flex;
+    align-items: center;
+}
+
+.detail-heading p {
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #94c11c;
+    margin: 0;
+    padding: 15px;
+    font-size: 30px;
+    border-radius: 50px 0px 50px 50px;
+    color: white;
+}
+
+.detail-heading h3 {
+    font-size: 22px;
+    margin-left: 20px;
+}
+
+.detail-desc ul {
+    padding: 0;
+    ;
+}
+
+.detail-desc ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    color: #70778a;
+    font-weight: 700;
+}
+
+.detail-desc ul li svg {
+    color: white;
+    font-size: 22px;
+    background-color: #94c11c;
+    border-radius: 50%;
+    padding: 5px;
+    margin-right: 10px;
+}
+
 
 .about-right {
     width: 30%;
@@ -73,6 +153,7 @@
         max-width: 720px;
     }
 }
+
 @media only screen and (max-width: 680px) {
 
     .about-main {

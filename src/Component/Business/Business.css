@@ -1,5 +1,5 @@
 .services {
-    padding: 2rem 0rem;
+    padding: 3rem 0rem;
     background-color: #b1b1b121;
     width: 100%;
 }
@@ -26,6 +26,7 @@
 }
 
 .services-cards-image img {
+    filter: brightness(0.5);
     display: block;
     width: 100%;
     height: 100%;
@@ -50,7 +51,7 @@
 }
 
 .services-cards-title:hover {
-    background-color: #99cd32b9;
+    background-color: #95c11cb4;
 }
 
 .services-cards-title:first-child:hover {
@@ -75,7 +76,7 @@
 }
 
 .services-cards-title h3 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 900;
     text-align: center;
 }

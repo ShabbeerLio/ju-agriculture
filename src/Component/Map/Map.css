@@ -1,0 +1,48 @@
+.map-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 0rem;
+    background-color: white;
+}
+
+.map-left {
+    width: 55%;
+}
+
+.map-left img {
+    width: 100%;
+}
+
+.map-right {
+    width: 45%;
+}
+
+.map-right-head {
+    text-align: center;
+}
+.map-right-head h2{
+    color: #0b2735;
+}
+.map-right-head p{
+    color: #888888;
+}
+
+.mapright-counter {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
+}
+
+.mapright-counter .counter-box h1{
+    color: #55b559;
+    font-size: 70px;
+    font-weight: 700;
+}
+.mapright-counter .counter-box h5{
+    color: #0b2735;
+}
+.mapright-counter .counter-box p{
+    color: #888888;
+}

@@ -9,6 +9,9 @@ import 'owl.carousel/dist/assets/owl.theme.default.css';
 import About from '../Component/About/About'
 import Business from '../Component/Business/Business'
 import Gallery from '../Component/Gallery/Gallery'
+import Blog from '../Component/Blog/Blog'
+import Map from '../Component/Map/Map'
+import Careers from '../Component/Careers/Careers'
 // import Services from '../Component/Services/Services'
 // import ContactUs from "../Component/ContactUs/ContactUs"
 // import Footer from "../Component/Footer/Footer"
@@ -42,6 +45,15 @@ const Home = () => {
             </section>
             <section className="section" id="gallery">
                 <Gallery />
+            </section>
+            <section className="section" id="careers">
+                <Careers />
+            </section>
+            <section className="section" id="blogs">
+                <Blog />
+            </section>
+            <section className="section" id="blogs">
+                <Map />
             </section>
         </div>
         {/* <Footer /> */}
