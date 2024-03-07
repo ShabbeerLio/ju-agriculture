@@ -12,6 +12,8 @@ import Gallery from '../Component/Gallery/Gallery'
 import Blog from '../Component/Blog/Blog'
 import Map from '../Component/Map/Map'
 import Careers from '../Component/Careers/Careers'
+import Wave from '../Component/Wave/Wave'
+import Footer from '../Component/Footer/Footer'
 // import Services from '../Component/Services/Services'
 // import ContactUs from "../Component/ContactUs/ContactUs"
 // import Footer from "../Component/Footer/Footer"
@@ -36,15 +38,17 @@ const Home = () => {
                         />
                     ))}
                 </ReactOwlCarousel>
+                <Map/>
+                {/* <Wave/> */}
             </section>
             <section className="section" id="about">
-                <About />
+                {/* <About /> */}
             </section>
             <section className="section" id="business">
                 <Business />
             </section>
             <section className="section" id="gallery">
-                <Gallery />
+                {/* <Gallery /> */}
             </section>
             <section className="section" id="careers">
                 <Careers />
@@ -53,10 +57,11 @@ const Home = () => {
                 <Blog />
             </section>
             <section className="section" id="blogs">
-                <Map />
+                {/* <Map /> */}
             </section>
         </div>
-        {/* <Footer /> */}
+        <About />
+        {/* // <Footer /> */}
     </>
     )
 }

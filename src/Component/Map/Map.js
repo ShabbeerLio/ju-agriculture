@@ -3,6 +3,10 @@ import './Map.css';
 import MapImg from '../../Assets/Images/Map/map_img-800x433.png';
 import CountUp from 'react-countup';
 import { useInView } from 'react-intersection-observer';
+import { RiEmotionHappyLine } from "react-icons/ri";
+import { FaHandshakeSimple } from "react-icons/fa6";
+import { IoIosPeople } from "react-icons/io";
+import { TbBrandApplePodcast } from "react-icons/tb";
 
 const Map = () => {
     const [ref, inView] = useInView({
@@ -19,34 +23,34 @@ const Map = () => {
     return (
         <div className="Map" ref={ref}>
             <div className="map-main">
-                <div className="map-left">
+                {/* <div className="map-left">
                     <img src={MapImg} alt="" />
-                </div>
+                </div> */}
                 <div className="map-right">
                     <div className="map-right-head">
-                        <h2>International hydroponic cultivation projects.</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                        <h5>Since 1894</h5>
+                        <p>Our Achivements</p>
                     </div>
                     <div className="mapright-counter">
                         <div className="counter-box">
-                            <h1>{inView ? <CountUp end={20000} {...countUpOptions} /> : 0}</h1>
+                            <h1><RiEmotionHappyLine />{inView ? <CountUp end={2} {...countUpOptions} /> : 0}Mn+</h1>
                             <h5>Happy Customers</h5>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, odio.</p>
+                            {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, odio.</p> */}
                         </div>
                         <div className="counter-box">
-                            <h1>{inView ? <CountUp end={25000} {...countUpOptions} /> : 0}</h1>
+                            <h1><FaHandshakeSimple/>{inView ? <CountUp end={25} {...countUpOptions} /> : 0}K+</h1>
                             <h5>Trade Partners</h5>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, odio.</p>
+                            {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, odio.</p> */}
                         </div>
                         <div className="counter-box">
-                            <h1>{inView ? <CountUp end={5000} {...countUpOptions} /> : 0}</h1>
+                            <h1><IoIosPeople/>{inView ? <CountUp end={5} {...countUpOptions} /> : 0}K+</h1>
                             <h5>Distributors</h5>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, odio.</p>
+                            {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, odio.</p> */}
                         </div>
                         <div className="counter-box">
-                            <h1>{inView ? <CountUp end={100} {...countUpOptions} /> : 0}</h1>
+                            <h1><TbBrandApplePodcast/>{inView ? <CountUp end={100} {...countUpOptions} /> : 0}+</h1>
                             <h5>Brands</h5>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, odio.</p>
+                            {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, odio.</p> */}
                         </div>
                     </div>
                 </div>

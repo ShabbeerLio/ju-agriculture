@@ -41,18 +41,19 @@
 .gallery-box-slide-track {
     display: flex;
     width: calc(250px * 18);
-    animation: scroll 41s linear infinite;
+    animation: scroll 30s linear infinite;
 }
 
 .gallery-box-slide-track2 {
     display: flex;
-    width: calc(250px * 16);
-    animation: scroll 45s linear infinite;
+    width: calc(250px * 18);
+    animation: scroll 40s linear infinite;
 }
+
 .gallery-box-slide-track3 {
     display: flex;
-    width: calc(250px * 16);
-    animation: scroll 43s linear infinite;
+    width: calc(250px * 18);
+    animation: scroll 35s linear infinite;
 }
 
 .gallery-box-image {
@@ -81,8 +82,5 @@
 }
 
 
-@media (min-width: 1200px) {
-    .gallery-main {
-        max-width: 1140px;
-    }
-}
+padding: 3rem 0rem;
+width: 100%;

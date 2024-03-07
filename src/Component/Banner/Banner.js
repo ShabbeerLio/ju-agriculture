@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Banner.css"
+import { FaArrowUpRightDots } from "react-icons/fa6";
 
 const Banner = (props) => {
 
@@ -15,6 +16,10 @@ const Banner = (props) => {
                     </div>
                     <div className="banner-desc">
                         <h4>{props.heading}</h4>
+                    </div>
+                    <div className="banner-button">
+                        <p>Read More</p>
+                        <FaArrowUpRightDots />
                     </div>
                 </div>
             </div>

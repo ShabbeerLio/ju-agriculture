@@ -30,6 +30,13 @@ const Gallery = () => {
                                 </div>
                             </>
                         ))}
+                        {BusinessData.map((item) => (
+                            <>
+                                <div className="gallery-box-image " key={item.id}>
+                                    <img src={item.cover} alt="" />
+                                </div>
+                            </>
+                        ))}
                     </div>
                     <div className="gallery-box-slide-track2">
                         {BusinessData.map((item) => (
@@ -39,8 +46,22 @@ const Gallery = () => {
                                 </div>
                             </>
                         ))}
+                        {BusinessData.map((item) => (
+                            <>
+                                <div className="gallery-box-image " key={item.id}>
+                                    <img src={item.cover} alt="" />
+                                </div>
+                            </>
+                        ))}
                     </div>
                     <div className="gallery-box-slide-track3">
+                        {BusinessData.map((item) => (
+                            <>
+                                <div className="gallery-box-image " key={item.id}>
+                                    <img src={item.cover} alt="" />
+                                </div>
+                            </>
+                        ))}
                         {BusinessData.map((item) => (
                             <>
                                 <div className="gallery-box-image " key={item.id}>

@@ -5,12 +5,16 @@
     height: 100vh;
 }
 
-.Banners-detail{
+.Banners-detail {
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+}
+
+.banner-desc {
+    width: 50%;
 }
 
 .Banners img {
@@ -23,68 +27,81 @@
     filter: brightness(0.5);
 }
 
-.Banners-detail{
+.Banners-detail {
     position: relative;
-    text-align: center;
+    text-align: left;
     bottom: 0;
-    background-color: rgba(153, 205, 50, 0.164);
     border-radius: 10px;
     padding-top: 10px;
+
 }
 
 .Banners-detail h1 {
-    width:100%;
+    width: 100%;
     position: relative;
     margin-bottom: 20px;
-    font-family: 'Gilda Display', serif;
-    font-size: 50px;
-    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    /* text-transform: uppercase; */
     line-height: 1.35em;
     -webkit-animation-delay: .6s;
     animation-delay: .6s;
     color: #fff;
-    font-weight: 400;
-    letter-spacing: 10px;
+    font-weight: 800;
+    letter-spacing: 3px;
 }
 
 .Banners-detail h4 {
-    width:100%;
-    font-family: 'Barlow Condensed', serif;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
     font-size: 15px;
     font-weight: 400;
-    text-transform: uppercase;
-    letter-spacing: 5px;
+    /* text-transform: uppercase; */
+    letter-spacing: 2px;
     color: #fff;
     margin-bottom: 20px;
     margin-top: 20px;
     -webkit-animation-delay: .4s;
     animation-delay: .4s;
+    line-height: 25px;
 }
 
-.banner-button{
+.banner-button {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 20%;
+    border-radius: 0px 20px 0px 20px;
+    background-color: #789b17;
 }
 
-.Banners-detail p {
+
+
+.banner-button p {
     font-weight: 400;
     font-family: 'Barlow Condensed', sans-serif;
     text-transform: uppercase;
     background: transparent;
     color: #fff;
-    padding: 12px 20px;
+    padding: 20px 15px 20px 30px;
     margin: 0;
     position: relative;
     font-size: 15px;
     letter-spacing: 3px;
-    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.banner-button svg {
+    color: white;
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+.Banners-detail p:hover {
+    background-color: #194341;
 }
 
 
-
-
-.Banners-order-box-checkin{
+.Banners-order-box-checkin {
     background-color: #aa8453;
     display: flex;
     align-items: center;
@@ -93,14 +110,15 @@
 
 @media screen and (min-width: 1200px) {
 
-    .Banners-detail{
+    .Banners-detail {
         max-width: 1080px;
     }
 }
+
 @media screen and (max-width: 520px) {
     .Banners-detail h1 {
         font-size: 42px;
         letter-spacing: 2px;
     }
-   
+
 }
