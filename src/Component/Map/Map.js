@@ -7,6 +7,7 @@ import { RiEmotionHappyLine } from "react-icons/ri";
 import { FaHandshakeSimple } from "react-icons/fa6";
 import { IoIosPeople } from "react-icons/io";
 import { TbBrandApplePodcast } from "react-icons/tb";
+import { IoArrowUndoSharp } from "react-icons/io5";
 
 const Map = () => {
     const [ref, inView] = useInView({
@@ -27,6 +28,9 @@ const Map = () => {
                     <img src={MapImg} alt="" />
                 </div> */}
                 <div className="map-right">
+                    <div className="map-icon-arrow">
+                        <IoArrowUndoSharp />
+                    </div>
                     <div className="map-right-head">
                         <h5>Since 1894</h5>
                         <p>Our Achivements</p>
@@ -38,17 +42,17 @@ const Map = () => {
                             {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, odio.</p> */}
                         </div>
                         <div className="counter-box">
-                            <h1><FaHandshakeSimple/>{inView ? <CountUp end={25} {...countUpOptions} /> : 0}K+</h1>
+                            <h1><FaHandshakeSimple />{inView ? <CountUp end={25} {...countUpOptions} /> : 0}K+</h1>
                             <h5>Trade Partners</h5>
                             {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, odio.</p> */}
                         </div>
                         <div className="counter-box">
-                            <h1><IoIosPeople/>{inView ? <CountUp end={5} {...countUpOptions} /> : 0}K+</h1>
+                            <h1><IoIosPeople />{inView ? <CountUp end={5} {...countUpOptions} /> : 0}K+</h1>
                             <h5>Distributors</h5>
                             {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, odio.</p> */}
                         </div>
                         <div className="counter-box">
-                            <h1><TbBrandApplePodcast/>{inView ? <CountUp end={100} {...countUpOptions} /> : 0}+</h1>
+                            <h1><TbBrandApplePodcast />{inView ? <CountUp end={100} {...countUpOptions} /> : 0}+</h1>
                             <h5>Brands</h5>
                             {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, odio.</p> */}
                         </div>

@@ -173,7 +173,89 @@
     margin-right: 10px;
 }
 
-.floatbar{
+.offcanvas-header img,
+.offcanvas-header h5{
+    margin: 0;
+}
+
+.offcanvas-header{
+    align-items: flex-start;
+    padding: 2rem 2rem 6rem 2rem;
+}
+
+.offcanvas-body {
+    padding: 1rem 2rem 2rem 2rem;
+}
+
+.side-contactInfo{
+    margin-top: 60px;
+}
+.offcanvas-body p{
+    margin: 0;
+    color: rgb(105, 105, 105);
+}
+.offcanvas-body .line1{
+    width: 20%;
+    height: 2px;
+    border-top: 1px solid rgb(42 127 37);
+    margin-bottom: 10px;
+}
+.offcanvas-body .line{
+    width: 40%;
+    height: 2px;
+    border-top: 1px solid rgb(42 127 37);
+    margin-bottom: 10px;
+}
+
+.offcanvas-body h4{
+    margin-bottom: 2px;
+}
+.offcanvas-body .side-contactInfo ul{
+    padding: 0;
+}
+.offcanvas-body .side-contactInfo ul li{
+    display: flex;
+    align-items: center;
+}
+
+.offcanvas-body .side-contactInfo ul li svg{
+    color:rgb(42 127 37) ;
+    font-size: 25px;
+    margin-right: 20px;
+}
+.offcanvas-body .side-contactInfo ul li p{
+    margin: 0;
+    padding: 10px 0;
+}
+.offcanvas-body .side-contactInfo ul li:nth-child(2) svg{
+    font-size: 22px;
+    margin-right: 20px;
+}
+
+.side-media{
+    position: absolute;
+    bottom: 25px;
+}
+.side-media svg{
+    font-size: 15px;
+}
+.side-media svg:first-child{
+    color: rgb(0, 174, 255);
+}
+.side-media svg:nth-child(2){
+    color: rgb(255, 0, 85);
+}
+.side-media svg:nth-child(3){
+    color: blue;
+}
+.side-media svg:nth-child(4){
+    color: red;
+}
+.side-media svg:nth-child(5){
+    color: rgb(0, 101, 148);
+}
+
+/* .floatbar{
     position: fixed;
     bottom: 15px;
     right: 30px;
@@ -205,7 +287,7 @@
 }
 .floatbar-icon:last-child:hover{
     background-color: rgb(201, 181, 0);
-}
+} */
 
 
 @media screen and (min-width: 1200px) {

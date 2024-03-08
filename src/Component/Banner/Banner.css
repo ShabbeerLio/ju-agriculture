@@ -73,6 +73,10 @@
     width: 20%;
     border-radius: 0px 20px 0px 20px;
     background-color: #789b17;
+    cursor: pointer;
+}
+.banner-button:hover {
+    background-color: #194341;
 }
 
 
@@ -96,9 +100,7 @@
     margin-right: 20px;
 }
 
-.Banners-detail p:hover {
-    background-color: #194341;
-}
+
 
 
 .Banners-order-box-checkin {
@@ -106,6 +108,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.owl-dots{
+    display: none;
 }
 
 @media screen and (min-width: 1200px) {

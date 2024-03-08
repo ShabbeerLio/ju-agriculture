@@ -32,6 +32,12 @@
     display: flex;
     align-items: center;
 }
+.map-right .map-icon-arrow{
+    font-size: 50px;
+    rotate: 180deg;
+    color: #55b559;
+    margin-right: 15px;
+}
 
 .counter-box{
     text-align: left;
