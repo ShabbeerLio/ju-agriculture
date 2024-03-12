@@ -2,6 +2,7 @@
     padding: 3rem 0 0 0;
     width: 100%;
     position: relative;
+    /* background-image: linear-gradient(white ,rgba(255, 255, 255, 0.61) , rgba(128, 128, 128, 0.171)); */
 }
 
 .aboutUs:before {
@@ -71,7 +72,7 @@
 
 .about-title h2 span:nth-child(2) {
     margin-left: 2px;
-    background-color: #94c11c;
+    background-color: rgb(42 127 37);
 }
 
 .about-title h2 span:last-child {
@@ -130,19 +131,49 @@
 .about-detail-left svg {
     font-size: 30px;
     color: #fdfdfd;
-
+    position: relative;
+    top: 3px;
 }
 
 .about-detail-left .about-detail-left-icon {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #73b628;
-    margin: 0;
-    padding: 15px;
     font-size: 30px;
     border-radius: 50px;
-    margin-right: 20px;
+    position: relative;
+    width: 60px;
+    height: 60px;
+    display: block;
+    line-height: 42px;
+    text-align: center;
+    color: #fff;
+    background-color:  rgb(42 127 37);
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+    margin: 0px 10px 0px 0px;
+    cursor: pointer;
+}
+.about-detail-left p{
+    margin: 0;
+}
+
+.about-detail-left .about-detail-left-icon:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    background-color:  #73b628;
+    content: "";
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+    border-radius: 50px;
+}
+.about-detail-left .about-detail-left-icon:hover:before {
+    transform: scale(1);
 }
 
 .detail-heading {
@@ -155,7 +186,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #73b628;
+    background-color: rgb(42 127 37);
     margin: 0;
     padding: 15px;
     font-size: 30px;
@@ -231,7 +262,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-top: 1px solid rgb(42 127 37);
+    border-top: 1px solid #ccc;
     margin-top: 3rem;
     padding-top: 20px;
 }
@@ -240,12 +271,10 @@
 .footer-copyright {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    width: 40%;
 }
 
 .footer-copyright p a {
-    color:rgb(42 127 37);
+    color: #73b628;
     text-decoration: none;
 }
 
@@ -273,6 +302,10 @@
 .footer-right-quick ul li a{
     text-decoration: none;
     color: black;
+}
+.footer-right-quick ul li a:hover{
+    text-decoration: none;
+    color: rgb(42 127 37);
 }
 
 .right-head-items {
@@ -312,7 +345,7 @@
     text-align: center;
     font-size: 14px;
     color: #fff;
-    background-color:  #73b628;
+    background-color:  rgb(42 127 37);
     -webkit-transition: all 300ms ease;
     transition: all 300ms ease;
     margin: 0px 10px 0px 0px;
@@ -326,7 +359,7 @@
     width: 100%;
     -webkit-transform: scale(0);
     transform: scale(0);
-    background-color: rgb(42 127 37);
+    background-color:  #73b628;
     content: "";
     -webkit-transition: all 300ms ease;
     transition: all 300ms ease;
@@ -339,7 +372,7 @@
 .detail-desc-form {
     position: relative;
     margin-bottom: 33px;
-    border: 1px solid #73b628;
+    border: 1px solid rgb(42 127 37);
     border-radius: 3px;
 }
 
@@ -380,7 +413,7 @@
     font-size: 18px;
     font-weight: 500;
     transition: all 0.3s;
-    background-color: #73b628;
+    background-color: rgb(42 127 37);
     position: relative;
     overflow: hidden;
     z-index: 1;
@@ -396,20 +429,67 @@
     left: 0;
     width: 0%;
     height: 100%;
-    background-color: rgb(42 127 37);
+    background-color: #73b628;
     transition: all 0.3s;
     border-radius: 3px;
     z-index: -1;
 }
 
 .form-btn p:hover {
-    border-left: 1px solid #73b628 ;
+    border-left: 1px solid rgb(42 127 37)  ;
 }
 
 .form-btn p:hover:before {
     width: 100%;
 }
 
+
+/* flip card */
+
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+  }
 
 
 

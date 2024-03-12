@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Blog.css"
 import Map from '../Map/Map'
+import { MdOutlineReadMore } from "react-icons/md";
 
 const Blog = () => {
     return (
@@ -27,12 +28,16 @@ const Blog = () => {
                         </div>
                         <div class="con">
                             <p class="category">
-                                Restaurant
+                                Name of the person
                             </p>
                             <h5>
                                 Historic restaurant renovated
                             </h5>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, earum!</p>
+                            <div className="con-button">
+                                <p>Read More</p>
+                                <MdOutlineReadMore/>
+                            </div>
                         </div>
                     </div>
                     <div className="HomeNews-box">
@@ -49,12 +54,16 @@ const Blog = () => {
                         </div>
                         <div class="con">
                             <p class="category">
-                                Restaurant
+                                Name 
                             </p>
                             <h5>
                                 Historic restaurant renovated
                             </h5>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, earum!</p>
+                            <div className="con-button">
+                                <p>Read More</p>
+                                <MdOutlineReadMore/>
+                            </div>
                         </div>
                     </div>
                     <div className="HomeNews-box">
@@ -71,12 +80,16 @@ const Blog = () => {
                         </div>
                         <div class="con">
                             <p class="category">
-                                Restaurant
+                                Name
                             </p>
                             <h5>
                                 Historic restaurant renovated
                             </h5>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, earum!</p>
+                            <div className="con-button">
+                                <p>Read More</p>
+                                <MdOutlineReadMore/>
+                            </div>
                         </div>
                     </div>
                 </div>

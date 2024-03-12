@@ -69,6 +69,19 @@ const About = (props) => {
 
                             </div>
 
+                            {/* <div class="flip-card">
+                                <div class="flip-card-inner">
+                                    <div class="flip-card-front">
+                                        {/* <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;"/> */}
+                            {/* </div>
+                                    <div class="flip-card-back">
+                                        <h1>John Doe</h1>
+                                        <p>Architect & Engineer</p>
+                                        <p>We love that guy</p>
+                                    </div>
+                                </div>
+                            </div>  */}
+
                         </div>
                     </div>
                     <div className="about-main-box">
@@ -154,8 +167,7 @@ const About = (props) => {
                             </ul>
                         </div>
                         <div className="footer-copyright">
-                            <p>© 1894 JU Agri Sciences</p>
-                            <p>&#160;Designed by :<a href="https://globalitsources.com/">&#160; Global IT Sources</a></p>
+                            <p>© 2024 JU Agri Sciences</p>
                         </div>
                     </div>
                 </div>
