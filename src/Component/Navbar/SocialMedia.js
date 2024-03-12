@@ -11,11 +11,21 @@ const SocialMedia = () => {
                 <div className="line"></div>
             </div>
             <div className="media-items">
-                <FaTwitter />
-                <FaInstagram />
-                <FaFacebookF />
-                <FaYoutube />
-                <FaLinkedinIn />
+                <p>
+                    <FaTwitter />
+                </p>
+                <p>
+                    <FaInstagram />
+                </p>
+                <p>
+                    <FaFacebookF />
+                </p>
+                <p>
+                    <FaYoutube />
+                </p>
+                <p>
+                    <FaLinkedinIn />
+                </p>
             </div>
         </>
     )
