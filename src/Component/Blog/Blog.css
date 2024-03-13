@@ -45,6 +45,7 @@
 }
 
 .blog-main-heading h2 {
+  position: relative;
   font-size: 4rem;
   padding: 5px;
   padding-bottom: 15px;
