@@ -151,6 +151,7 @@
 .HomeNews-box {
   position: relative;
   overflow: hidden;
+  cursor: pointer;
 }
 
 .HomeNews-box-item-head {

@@ -333,6 +333,16 @@
     border-radius: 38px 5px 5px 5px;
     padding: 10px;
     margin-right: 10px;
+    cursor: pointer;
+    position: relative;
+}
+.right-head-items:hover {
+    background-color: #ecffe1;
+}
+.right-head-items:hover svg{
+    transition: all 300ms ease;
+    rotate: 45deg;
+
 }
 
 .about-social-media {
@@ -398,7 +408,7 @@
 
 .detail-desc-form input {
     border: none;
-    background: white;
+    background: #ecffe1;
     width: 365px;
     height: 62px;
     line-height: 62px;

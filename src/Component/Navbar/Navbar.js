@@ -80,8 +80,8 @@ const Navbar = (props) => {
                                     <li className="nav-item">
                                         <a className="nav-link" href="#about" onClick={closeMenu}>About Us</a>
                                     </li>
-                                    <li className="nav-item">
-                                        <a className="nav-link" href="#business" onClick={closeMenu}>Our Business</a>
+                                    <li className="nav-item ">
+                                        <a className="nav-link dropdown-toggle" href="#business" onClick={closeMenu}>Our Business</a>
                                     </li>
                                     <li className="nav-item">
                                         <a className="nav-link" href="#gallery" onClick={closeMenu}>Gallery</a>
