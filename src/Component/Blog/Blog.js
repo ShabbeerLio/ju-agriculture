@@ -1,97 +1,75 @@
 import React from 'react'
 import "./Blog.css"
-import Map from '../Map/Map'
-import { MdOutlineReadMore } from "react-icons/md";
+import { IoChatbubbles } from "react-icons/io5";
+import Blogs1 from "../../Assets/Images/Blogs/blog1.jpg"
+import Blogs2 from "../../Assets/Images/Blogs/blogs2.jpeg"
+import Blogs3 from "../../Assets/Images/Blogs/blogs3.jpg"
 
 const Blog = () => {
     return (
         <div className='Blog'>
             <div className='Blog-main'>
                 <div className="blog-main-heading">
-                    <h2>Blog
-                    &nbsp;<span>Posts</span>
+                    <div className="blog-heading">
+                    <h2>News  
+                        <span> & Blogs</span>
                     </h2>
-                    <p>Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.</p>
+                    <p>Stay informed with our latest news updates, delivering insightful stories daily. Explore our diverse blogosphere, where ideas flourish and perspectives collide.</p>
+                    </div>
+                    <div className="blog-main-button">
+                        <p>View All</p>
+                    </div>
                 </div>
                 <div className="blog-main-box">
                     <div className="HomeNews-box">
                         <div className="HomeNews-box-item">
                             <div className="HomeNews-box-item-head">
-                                <img src="https://indiaforensic.com/certifications/wp-content/uploads/2017/01/agriculture.jpg" alt="" />
+                                <img src={Blogs1} alt="" />
                                 <div class="date">
-                                    <span class="__date-post">
-                                        <strong>3</strong>
-                                        Dec
-                                    </span>
+                                    20 Mar, 2023
                                 </div>
                             </div>
                         </div>
                         <div class="con">
-                            <p class="category">
-                                Name of the person
-                            </p>
+                            <p><IoChatbubbles />Comments</p>
                             <h5>
-                                Historic restaurant renovated
+                            The Role of Pesticides in Modern Agriculture
                             </h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, earum!</p>
-                            <div className="con-button">
-                                <p>Read More</p>
-                                <MdOutlineReadMore/>
-                            </div>
                         </div>
                     </div>
                     <div className="HomeNews-box">
                         <div className="HomeNews-box-item">
                             <div className="HomeNews-box-item-head">
-                                <img src="https://indiaforensic.com/certifications/wp-content/uploads/2017/01/agriculture.jpg" alt="" />
+                                <img src={Blogs2} alt="" />
                                 <div class="date">
-                                    <span class="__date-post">
-                                        <strong>3</strong>
-                                        Dec
-                                    </span>
+                                    20 Mar, 2023
                                 </div>
                             </div>
                         </div>
                         <div class="con">
-                            <p class="category">
-                                Name 
-                            </p>
+                            <p><IoChatbubbles />Comments</p>
                             <h5>
-                                Historic restaurant renovated
+                            Boost Crop Growth with Ecomax+ and Azomax Biofertilizers
                             </h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, earum!</p>
-                            <div className="con-button">
-                                <p>Read More</p>
-                                <MdOutlineReadMore/>
-                            </div>
                         </div>
                     </div>
                     <div className="HomeNews-box">
                         <div className="HomeNews-box-item">
                             <div className="HomeNews-box-item-head">
-                                <img src="https://indiaforensic.com/certifications/wp-content/uploads/2017/01/agriculture.jpg" alt="" />
+                                <img src={Blogs3} alt="" />
                                 <div class="date">
-                                    <span class="__date-post">
-                                        <strong>3</strong>
-                                        Dec
-                                    </span>
+                                    20 Mar, 2023
                                 </div>
                             </div>
                         </div>
                         <div class="con">
-                            <p class="category">
-                                Name
-                            </p>
+                            <p><IoChatbubbles />Comments</p>
                             <h5>
-                                Historic restaurant renovated
+                            Empowering Agriculture | Revolutionizing Farmers through Upskilling
                             </h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, earum!</p>
-                            <div className="con-button">
-                                <p>Read More</p>
-                                <MdOutlineReadMore/>
-                            </div>
                         </div>
                     </div>
+
                 </div>
 
             </div>

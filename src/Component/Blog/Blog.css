@@ -1,7 +1,21 @@
 .Blog {
-  padding: 3rem 0rem;
-  background-color: #789b17;
+  padding: 6rem 0rem;
+  background-color: rgb(42 127 37);
   width: 100%;
+  position: relative;
+}
+.Blog:before {
+  position: absolute;
+  left: 0;
+  top: 10%;
+  width: 400px;
+  height: 64%;
+  background-image: url(../../Assets/Images/demo-elearning-bg-05.png);
+  content: "";
+}
+
+.blog-main-button{
+  width: 15%;
 }
 
 .Blog-main {
@@ -13,46 +27,97 @@
 }
 
 .blog-main-box {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
   align-items: center;
+  gap: 1rem;
 }
 
 .blog-main-heading {
-  text-align: center;
   margin-bottom: 50px;
   line-height: 1.4;
   font-weight: 300;
   color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
 }
 
 .blog-main-heading h2 {
-  line-height: 1.2;
+  font-size: 4rem;
+  padding: 5px;
+  padding-bottom: 15px;
+  margin: 0;
   font-weight: 900;
-  font-family: Raleway, sans-serif;
-  text-transform: uppercase;
-  color: white;
-  margin-top: 20px;
-  margin-bottom: 10px;
-  transition: color 0.3s ease-in-out;
+  color: rgb(255, 255, 255);
 }
-
 .blog-main-heading h2 span {
   font-weight: 100;
+}
+.blog-main-heading p {
+  margin: 0 0 0px 0;
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+  padding-bottom: 10px;
+  width: 80%;
+}
+
+.blog-main-button p{
+  width: 100%;
+  border-radius: 0px 20px 0px 20px;
+    padding: 22px 35px !important;
+    /* display: inline-block; */
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: 500;
+    transition: all 0.3s;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    line-height: 1;
+    cursor: pointer;
+}
+.blog-main-button p:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: #73b628;
+  transition: all 0.3s;
+  border-radius: 3px;
+  z-index: -1;
+}
+.blog-main-button p:hover:before {
+  width: 100%;
 }
 
 .HomeNews-box-item .date {
   position: absolute;
-  top: 0;
+  top: 20px;
   left: 20px;
-  display: inline-block;
-  background-color: #fcdb5a;
-  min-width: 60px;
-  padding: 13px 10px;
-  line-height: 1;
-  font-weight: 700;
-  text-align: center;
-  color: #9a8841;
-  border-radius: 0 0 10px 10px;
+  background: rgb(42 127 37);
+  color: #fff;
+  font-size: 10px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  padding: 0 15px;
+  height: 30px;
+  line-height: 30px;
+  font-weight: 600;
+}
+.HomeNews-box-item .date:before {
+  position: absolute;
+  bottom: -9px;
+  left: 0;
+  border-top: 10px solid rgb(42 127 37);
+  border-right: 10px solid transparent;
+  content: "";
 }
 
 .HomeNews-box-item .__date-post {
@@ -85,8 +150,6 @@
 .HomeNews-box {
   position: relative;
   overflow: hidden;
-  margin: 30px;
-  border-radius: 0px 40px 0px 40px;
 }
 
 .HomeNews-box-item-head {
@@ -99,11 +162,11 @@
 
 .HomeNews-box-item img {
   width: 100%;
-  height: 250px;
   object-fit: cover;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
-  filter: brightness(100%);
+  aspect-ratio: 3/4;
+filter: brightness(90%);
 }
 
 .HomeNews-box:hover img {
@@ -120,18 +183,14 @@
 }
 
 .HomeNews-box .con {
-  /* position: relative; */
-  text-align: center; 
- margin: -155px 20px 90px;
-  padding: 20px;
-  background-color: #fff !important;
-  /* border: 1px solid #2b2b2b; */
-  border-radius: 0;
-  overflow: hidden;
-  transition: 0.2s cubic-bezier(0.3, 0.58, 0.55, 1);
-  bottom: -90px;
-  position: relative;
-  border-radius: 0px 0px 0px 40px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 20px 35px 32px;
+  border-radius: 0 0 10px 10px;
+  -webkit-transition: all 300ms ease;
+  transition: all 200ms ease;
 }
 
 .HomeNews-box:hover .con {
@@ -149,10 +208,9 @@
 }
 
 .HomeNews-box .con h5 {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  font-weight: 700;
-  text-transform: none;
+  line-height: 25px;
+  color: #fff;
+  margin-bottom: 0px;
 }
 
 .HomeNews-box .con .category {
@@ -161,7 +219,21 @@
   text-decoration: none;
 }
 .HomeNews-box .con p {
-  color: #888888;
+  position: relative;
+  font-size: 12px;
+  line-height: 30px;
+  color: #fff;
+  font-weight: 600;
+  margin-right: 15px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+.HomeNews-box .con p svg {
+  font-size: 18px;
+  margin-right: 10px;
+  color: #73b628;
 }
 
 .con-button {

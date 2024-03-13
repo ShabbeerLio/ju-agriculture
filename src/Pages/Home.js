@@ -14,6 +14,7 @@ import Map from '../Component/Map/Map'
 import Careers from '../Component/Careers/Careers'
 import Wave from '../Component/Wave/Wave'
 import Footer from '../Component/Footer/Footer'
+import ChooseUS from '../Component/ChooseUS/ChooseUS'
 // import Services from '../Component/Services/Services'
 // import ContactUs from "../Component/ContactUs/ContactUs"
 // import Footer from "../Component/Footer/Footer"
@@ -50,8 +51,11 @@ const Home = () => {
             <section className="section" id="gallery">
                 {/* <Gallery /> */}
             </section>
-            <section className="section" id="careers">
+            {/* <section className="section" id="careers">
                 <Careers />
+            </section> */}
+            <section className="section" id="careers">
+                <ChooseUS />
             </section>
             <section className="section" id="blogs">
                 <Blog />
