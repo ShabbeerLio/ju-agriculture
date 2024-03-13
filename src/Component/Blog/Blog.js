@@ -26,7 +26,7 @@ const Blog = () => {
                             <div className="HomeNews-box-item-head">
                                 <img src={Blogs1} alt="" />
                                 <div class="date">
-                                    9 Mar, 2024
+                                    13 Mar, 2024
                                 </div>
                             </div>
                         </div>
