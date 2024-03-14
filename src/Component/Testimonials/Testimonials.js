@@ -19,11 +19,11 @@ const Testimonials = () => {
             <div className="testimonial-main">
                 <div className="testimonial-left-head">
                     <p><BsChatQuoteFill /></p>
-                    <span>Student feedback</span>
+                    <span>Customers Feedback</span>
                 </div>
                 <div className="testimonial-main-body">
                     <div className="testimonial-main-left">
-                        <h2>Trusted by genius people.</h2>
+                        <h2>Trusted by farmers.</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, quis?</p>
                         <div className="testimonial-left-body">
                             <h2>99%</h2>
@@ -66,9 +66,9 @@ const Testimonials = () => {
                     <div className="testimonial-foot-box">
                         <img src={testimonial1} alt="" />
                         <img src={testimonial2} alt="" />
-                        <img src={testimonial1} alt="" />
+                        {/* <img src={testimonial1} alt="" />
                         <img src={testimonial2} alt="" />
-                        <img src={testimonial1} alt="" />
+                        <img src={testimonial1} alt="" /> */}
                     </div>
                 </div>
             </div>

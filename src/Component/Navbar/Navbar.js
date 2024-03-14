@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import "./Navbar.css"
 import Logo from "../../Assets/logo.png"
 import { IoSearch, IoApps, IoPeopleOutline } from "react-icons/io5";
-import { FaInstagram, FaFacebookF, FaYoutube, FaTwitter, FaLinkedinIn, FaLocationDot, FaEnvelope } from "react-icons/fa6";
+import {FaLocationDot, FaEnvelope } from "react-icons/fa6";
 import SocialMedia from './SocialMedia';
 // import FormFloat from './FormFloat';
 
@@ -89,16 +89,9 @@ const Navbar = (props) => {
                                     <li className="nav-item">
                                         <a className="nav-link" href="#careers" onClick={closeMenu}>Careers</a>
                                     </li>
-                                    {/* <li className="nav-item">
-                                        <a className="nav-link" href="#business" onClick={closeMenu}>Employees</a>
-                                    </li> */}
                                     <li className="nav-item">
                                         <a className="nav-link" href="#blogs" onClick={closeMenu}>Blogs</a>
                                     </li>
-                                    {/* <li className="nav-item">
-                                        <a className="nav-link" href="#contactUs" onClick={closeMenu}>Contact Us</a>
-                                    </li> */}
-
                                 </ul>
                             </div>
                             <div className="nav-action justify-content-end">

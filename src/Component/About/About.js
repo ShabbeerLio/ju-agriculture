@@ -89,11 +89,11 @@ const About = (props) => {
                     <div className="about-main-box">
                         <div className="about-right-body">
                             <div className="about-right-main">
-                                <div className="detail-right-heading">
+                                {/* <div className="detail-right-heading">
                                     <h3>Our Partners</h3>
                                     <p>Collaboration is the key to lasting progress. We have partnered with globally renowned agricultural solution providers to bring the latest technology driven solutions at the doorsteps of Indian farming community.</p>
-                                </div>
-                                <div className="about-right-main-partners">
+                                </div> */}
+                                {/* <div className="about-right-main-partners">
 
                                     <div className="about-detail-left">
                                         <img src={Partner1} alt="" />
@@ -101,7 +101,7 @@ const About = (props) => {
                                     <div className="about-detail-left">
                                         <img src={Partner2} alt="" />
                                     </div>
-                                </div>
+                                </div> */}
                                 <div className="about-detail-left">
                                     <p className='about-detail-left-icon'>
                                         <svg width="1em" height="1em" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" {...props}>

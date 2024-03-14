@@ -8,17 +8,11 @@ import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import About from '../Component/About/About'
 import Business from '../Component/Business/Business'
-import Gallery from '../Component/Gallery/Gallery'
 import Blog from '../Component/Blog/Blog'
 import Map from '../Component/Map/Map'
-import Careers from '../Component/Careers/Careers'
-import Wave from '../Component/Wave/Wave'
-import Footer from '../Component/Footer/Footer'
 import ChooseUS from '../Component/ChooseUS/ChooseUS'
 import Testimonials from '../Component/Testimonials/Testimonials'
-// import Services from '../Component/Services/Services'
-// import ContactUs from "../Component/ContactUs/ContactUs"
-// import Footer from "../Component/Footer/Footer"
+import Footer2 from '../Component/Footer2/Footer2'
 
 const Home = () => {
     return (<>
@@ -32,6 +26,9 @@ const Home = () => {
                     autoplayTimeout={3000}
                     nav={false}
                     dots={false}
+                    animateOut='fadeOut'
+                    animateIn='fadeIn'
+                      
                 >
                     {BannerData.map((item) => (
                         <Banner
@@ -42,21 +39,16 @@ const Home = () => {
                         />
                     ))}
                 </ReactOwlCarousel>
-                <Map/>
-                {/* <Wave/> */}
+                <Map />
             </section>
             <section className="section" id="about">
-                {/* <About /> */}
+                <Testimonials />
             </section>
             <section className="section" id="business">
                 <Business />
             </section>
             <section className="section" id="gallery">
-                {/* <Gallery /> */}
             </section>
-            {/* <section className="section" id="careers">
-                <Careers />
-            </section> */}
             <section className="section" id="careers">
                 <ChooseUS />
             </section>
@@ -64,11 +56,10 @@ const Home = () => {
                 <Blog />
             </section>
             <section className="section" id="blogs">
-                <Testimonials/>
+                <Footer2/>
             </section>
         </div>
         <About />
-        {/* // <Footer /> */}
     </>
     )
 }
