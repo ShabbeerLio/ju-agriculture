@@ -136,10 +136,6 @@
     justify-content: center;
 }
 
-.owl-dots {
-    display: none;
-}
-
 @media screen and (min-width: 1200px) {
 
     .Banners-detail {

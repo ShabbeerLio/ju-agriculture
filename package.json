@@ -1,6 +1,6 @@
 {
   "name": "ju-agriculture",
-  "hamepage":"https://globalitsources.com/ju-design/",
+  "homepage": "https://globalitsources.com/ju-design/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

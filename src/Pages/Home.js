@@ -15,6 +15,7 @@ import Careers from '../Component/Careers/Careers'
 import Wave from '../Component/Wave/Wave'
 import Footer from '../Component/Footer/Footer'
 import ChooseUS from '../Component/ChooseUS/ChooseUS'
+import Testimonials from '../Component/Testimonials/Testimonials'
 // import Services from '../Component/Services/Services'
 // import ContactUs from "../Component/ContactUs/ContactUs"
 // import Footer from "../Component/Footer/Footer"
@@ -29,6 +30,8 @@ const Home = () => {
                     items={1}
                     autoplay={true}
                     autoplayTimeout={3000}
+                    nav={false}
+                    dots={false}
                 >
                     {BannerData.map((item) => (
                         <Banner
@@ -61,7 +64,7 @@ const Home = () => {
                 <Blog />
             </section>
             <section className="section" id="blogs">
-                {/* <Map /> */}
+                <Testimonials/>
             </section>
         </div>
         <About />

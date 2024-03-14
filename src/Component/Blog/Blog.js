@@ -25,12 +25,12 @@ const Blog = () => {
                         <div className="HomeNews-box-item">
                             <div className="HomeNews-box-item-head">
                                 <img src={Blogs1} alt="" />
-                                <div class="date">
+                                <div className="date">
                                     13 Mar, 2024
                                 </div>
                             </div>
                         </div>
-                        <div class="con">
+                        <div className="con">
                             <p><IoChatbubbles />Comments</p>
                             <h5>
                             The Role of Pesticides in Modern Agriculture
@@ -41,12 +41,12 @@ const Blog = () => {
                         <div className="HomeNews-box-item">
                             <div className="HomeNews-box-item-head">
                                 <img src={Blogs2} alt="" />
-                                <div class="date">
+                                <div className="date">
                                     10 Mar, 2024
                                 </div>
                             </div>
                         </div>
-                        <div class="con">
+                        <div className="con">
                             <p><IoChatbubbles />Comments</p>
                             <h5>
                             Boost Crop Growth with Ecomax+ and Azomax Biofertilizers
@@ -57,12 +57,12 @@ const Blog = () => {
                         <div className="HomeNews-box-item">
                             <div className="HomeNews-box-item-head">
                                 <img src={Blogs3} alt="" />
-                                <div class="date">
+                                <div className="date">
                                     8 Mar, 2024
                                 </div>
                             </div>
                         </div>
-                        <div class="con">
+                        <div className="con">
                             <p><IoChatbubbles />Comments</p>
                             <h5>
                             Empowering Agriculture | Revolutionizing Farmers through Upskilling
