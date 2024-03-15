@@ -2,13 +2,16 @@
   display: flex;
   align-items: center;
   gap: 5rem;
+  background-color: #f8f4f0;
 }
 
 
 .footer2-left {
   display: flex;
   align-items: center;
+  flex-direction: row;
   width: 50%;
+  height: 100%;
 }
 
 .footer2-left-image{
@@ -18,7 +21,7 @@
 .footer2-left-image img{
     width: 100%;
     object-fit: cover;
-    height: 84vh;
+    height:643px;
 }
 
 .footer2-left-item-detail{
@@ -47,11 +50,15 @@
   background-color: rgb(35 35 35 );
   color: white;
 }
+.footer2-item-box:last-child{
+  background-color: white !important;
+}
 
 .footer2-item-image {
   width: 50%;
   text-align: center;
 }
+
 
 .footer2-item-image img {
     width: 100%;

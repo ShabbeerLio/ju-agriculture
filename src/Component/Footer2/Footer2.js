@@ -31,7 +31,7 @@ const Footer2 = () => {
                         {/* </div>
                     <div className="footer2-right-item"> */}
                         <div className="footer2-item-image">
-                            <img src="https://www.financialexpress.com/wp-content/uploads/2023/04/smart-agriculture-iot-with-hand-planting-tree-background-1.jpg?w=350" alt="" />
+                            <img src="https://lvivity.com/wp-content/uploads/2020/04/iot-in-agriculture.jpg" alt="" />
                         </div>
                         <div className="footer2-item-box">
                             <div className="footer2-box-text">

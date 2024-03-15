@@ -46,7 +46,7 @@ const About = (props) => {
 
                         </div>
                         <div className="about-right">
-                            <div className="about-right-head">
+                            {/* <div className="about-right-head">
                                 <div className="right-head-items">
                                     <div className="detail-heading">
                                         <p><FaTractor /></p>
@@ -69,7 +69,7 @@ const About = (props) => {
                                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, temporibus.</p>
                                 </div>
 
-                            </div>
+                            </div> */}
 
                             {/* <div class="flip-card">
                                 <div class="flip-card-inner">
