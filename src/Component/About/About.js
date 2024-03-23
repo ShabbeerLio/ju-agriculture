@@ -37,16 +37,45 @@ const About = (props) => {
                             <a href="#">
                                 <img className="image2" src={Aboutimg} alt="" />
                             </a>
-                            <div className="about-left-detail">
-                                <div className="about-detail">
-                                    <p>JU possesses a broad range of more than 100 products including Biological Fertilizers, Biological Pesticides, Insecticides, Fungicides, Herbicides and Bio-stimulants.</p>
-                                    {/* <p> In a journey of mere two decades, the company has emerged as one of the Top Most Agrochemical Company in the Indian agricultural services sector, solidifying its position as a leading Agrochemical Company in India The company has also been recently recognized as “Great Place to Work from March 2022 to March 2023”. With its offices in all the major states of the country, the company has gained pan- India presence and caters to a network of more than 5500 trade partners and 25000 retailers. JU possesses a broad range of more than 130 products including Biological Fertilizers, Biological Pesticides, Insecticides, Fungicides, Herbicides and Bio- stimulants and has solution for all the major crops grown in the country like Paddy, Cotton, Wheat, Soybean, Pulses, Vegetables, Fruits etc. With a team of more than 1000 trained people on ground offering regular technical and advisory services, the company has also been instrumental in establishing the biological fertilizers industry in India. The organization also has deep experience in brand building and many of its brands are amongst the most trusted names in the Indian farming community today.</p> */}
-                                </div>
-                            </div>
+
+                            {/* <div className="about-left-detail">
+                                <div className="about-detail"> */}
+                            {/* <p>JU possesses a broad range of more than 100 products including Biological Fertilizers, Biological Pesticides, Insecticides, Fungicides, Herbicides and Bio-stimulants.</p> */}
+                            {/* <p> In a journey of mere two decades, the company has emerged as one of the Top Most Agrochemical Company in the Indian agricultural services sector, solidifying its position as a leading Agrochemical Company in India The company has also been recently recognized as “Great Place to Work from March 2022 to March 2023”. With its offices in all the major states of the country, the company has gained pan- India presence and caters to a network of more than 5500 trade partners and 25000 retailers. JU possesses a broad range of more than 130 products including Biological Fertilizers, Biological Pesticides, Insecticides, Fungicides, Herbicides and Bio- stimulants and has solution for all the major crops grown in the country like Paddy, Cotton, Wheat, Soybean, Pulses, Vegetables, Fruits etc. With a team of more than 1000 trained people on ground offering regular technical and advisory services, the company has also been instrumental in establishing the biological fertilizers industry in India. The organization also has deep experience in brand building and many of its brands are amongst the most trusted names in the Indian farming community today.</p> */}
+                            {/* </div>
+                            </div> */}
 
                         </div>
-                        <div className="about-right">
-                            {/* <div className="about-right-head">
+                        <div className="footer-right-quick">
+                            <ul>
+                                <li>
+                                    <a href="#home"  >Home</a>
+                                </li>
+                                <li>
+                                    <a href="#about"  >About Us</a>
+                                </li>
+                                <li>
+                                    <a href="#business"  >Our Business</a>
+                                </li>
+                                <li>
+                                    <a href="#gallery"  >Gallery</a>
+                                </li>
+                                <li>
+                                    <a href="#careers"  >Careers</a>
+                                </li>
+                                <li>
+                                    <a href="#blogs" >Blogs</a>
+                                </li>
+                                <li>
+                                    <a href="#contactUs"  >Contact Us</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div className="about-social-media">
+                            <SocialMedia />
+                        </div>
+                        {/* <div className="about-right"> */}
+                        {/* <div className="about-right-head">
                                 <div className="right-head-items">
                                     <div className="detail-heading">
                                         <p><FaTractor /></p>
@@ -71,11 +100,11 @@ const About = (props) => {
 
                             </div> */}
 
-                            {/* <div class="flip-card">
+                        {/* <div class="flip-card">
                                 <div class="flip-card-inner">
                                     <div class="flip-card-front">
                                         {/* <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;"/> */}
-                            {/* </div>
+                        {/* </div>
                                     <div class="flip-card-back">
                                         <h1>John Doe</h1>
                                         <p>Architect & Engineer</p>
@@ -84,16 +113,16 @@ const About = (props) => {
                                 </div>
                             </div>  */}
 
-                        </div>
+                        {/* </div> */}
                     </div>
-                    <div className="about-main-box">
+                    {/* <div className="about-main-box">
                         <div className="about-right-body">
-                            <div className="about-right-main">
-                                {/* <div className="detail-right-heading">
+                            <div className="about-right-main"> */}
+                    {/* <div className="detail-right-heading">
                                     <h3>Our Partners</h3>
                                     <p>Collaboration is the key to lasting progress. We have partnered with globally renowned agricultural solution providers to bring the latest technology driven solutions at the doorsteps of Indian farming community.</p>
                                 </div> */}
-                                {/* <div className="about-right-main-partners">
+                    {/* <div className="about-right-main-partners">
 
                                     <div className="about-detail-left">
                                         <img src={Partner1} alt="" />
@@ -102,7 +131,7 @@ const About = (props) => {
                                         <img src={Partner2} alt="" />
                                     </div>
                                 </div> */}
-                                <div className="about-detail-left">
+                    {/* <div className="about-detail-left">
                                     <p className='about-detail-left-icon'>
                                         <svg width="1em" height="1em" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" {...props}>
                                             <g fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2">
@@ -138,10 +167,10 @@ const About = (props) => {
                                         <h4>Email</h4>
                                         <p>info@juagrisciences.com</p>
                                     </div>
-                                </div>
+                                </div> */}
 
-                            </div>
-                            <div className="about-detail-right">
+                </div>
+                {/* <div className="about-detail-right">
                                 <div className="detail-right-heading">
                                     <h3>Subscribe Our Newslatter</h3>
                                     <p>Sapien luctus lesuada sentus pharetra nisi quisuea aenean eros mus magnis arcu vehicula nascetur</p>
@@ -155,40 +184,27 @@ const About = (props) => {
                                 <div className="about-social-media">
                                     <SocialMedia />
                                 </div>
-                            </div>
-                        </div>
+                            </div> */}
+                {/* </div>
+                    </div> */}
+                <div className="footer-down">
+                    <div className="footer-copyright">
+                        <p>© 2024 ©JU Agri Sciences.</p>
                     </div>
-                    <div className="footer-down">
-                        <div className="footer-right-quick">
-                            <ul>
-                                <li>
-                                    <a href="#home"  >Home</a>
-                                </li>
-                                <li>
-                                    <a href="#about"  >About Us</a>
-                                </li>
-                                <li>
-                                    <a href="#business"  >Our Business</a>
-                                </li>
-                                <li>
-                                    <a href="#gallery"  >Gallery</a>
-                                </li>
-                                <li>
-                                    <a href="#careers"  >Careers</a>
-                                </li>
-                                <li>
-                                    <a href="#blogs" >Blogs</a>
-                                </li>
-                                <li>
-                                    <a href="#contactUs"  >Contact Us</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div className="footer-copyright">
-                            <p>© 2024 JU Agri Sciences</p>
-                        </div>
+                    <div className="footer-copyright-menu">
+                        <ul>
+                            <li><a href="">Legal</a></li>
+                            <li><a href="">Cookie Policy</a></li>
+                            <li><a href="">Press</a></li>
+                            <li><a href="">Cookie Setting</a></li>
+                            <li><a href="">Careers</a></li>
+                            <li><a href="">Sitemap</a> </li>
+                            <li><a href="">Disclaimers</a></li>
+                            <li><a href="">Terms of Use</a></li>
+                        </ul>
                     </div>
                 </div>
+                {/* </div> */}
             </div>
         </>
     )

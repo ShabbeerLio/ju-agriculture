@@ -80,7 +80,7 @@ const Business = () => {
                         <div className="boxes1" >
                             <div className="services-cards-title">
                                 <div className="title-box">
-                                    <h2>Our <span>Business</span></h2>
+                                    <h2>Products & Crop Solution</h2>
                                     <p>The Jhaver Group is today a highly respected business group and has emerged as one of the fastest-growing innovators in South Asia.</p>
                                 </div>
                             </div>

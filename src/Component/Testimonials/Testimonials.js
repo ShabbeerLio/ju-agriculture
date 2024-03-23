@@ -7,6 +7,7 @@ import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import testimonial1 from '../../Assets/plogo1.png'
 import testimonial2 from '../../Assets/plogo2.png'
+import branded from "../../Assets/cb1.png"
 
 
 const Testimonials = () => {
@@ -19,18 +20,18 @@ const Testimonials = () => {
             <div className="testimonial-main">
                 <div className="testimonial-left-head">
                     <p><BsChatQuoteFill /></p>
-                    <span>Customers Feedback</span>
+                    <span>Welcome to</span>
                 </div>
                 <div className="testimonial-main-body">
                     <div className="testimonial-main-left">
-                        <h2>Trusted by farmers.</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, quis?</p>
+                        <h2>JU Agri Sciences</h2>
+                        <p>At the turn of 21st century, JU Agri Sciences was conceived as a key enabler in Indian farmers pursuit of enhancing farm productivity and to produce more with limited resources sustainably. In a journey of mere two decades, the company has emerged as one of the Top Most Agrochemical Company in the Indian agricultural services sector, solidifying its position as a leading Agrochemical Company in India</p>
                         <div className="testimonial-left-body">
-                            <h2>99%</h2>
-                            <p>Student's complete course successfully.</p>
+                            <h2>Our Partners </h2>
+                            <p>Collaboration is the key to lasting progress. We have partnered with globally renowned agricultural solution providers to bring the latest technology driven solutions at the doorsteps of Indian farming community.</p>
                         </div>
                     </div>
-                    <div className="testimonial-main-right">
+                    {/* <div className="testimonial-main-right">
                         <ReactOwlCarousel
                             loop={Infinity}
                             items={1}
@@ -60,16 +61,19 @@ const Testimonials = () => {
                                 </div>
                             </div>
                         </ReactOwlCarousel>
-                    </div>
+                    </div> */}
                 </div>
                 <div className="testimonial-main-foot">
                     <div className="testimonial-foot-box">
-                        <img src={testimonial1} alt="" />
                         <img src={testimonial2} alt="" />
+                        <img src={testimonial1} alt="" />
                         {/* <img src={testimonial1} alt="" />
                         <img src={testimonial2} alt="" />
                         <img src={testimonial1} alt="" /> */}
                     </div>
+                    {/* <div className="branded">
+                        <img src={branded} alt="" />
+                    </div> */}
                 </div>
             </div>
         </div>

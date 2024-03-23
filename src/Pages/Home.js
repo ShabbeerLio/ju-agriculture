@@ -15,6 +15,8 @@ import Testimonials from '../Component/Testimonials/Testimonials'
 import Footer2 from '../Component/Footer2/Footer2'
 import FlipCards from '../Component/FlipCards/FlipCards'
 import Blog2 from '../Component/Blog2/Blog2'
+import HoverCard from '../Component/HoverCard/HoverCard'
+import Wave from '../Component/Wave/Wave'
 
 const Home = () => {
     return (<>
@@ -50,18 +52,20 @@ const Home = () => {
                 <Business />
             </section>
             <section className="section" id="gallery">
-                <FlipCards/>
+                {/* <HoverCard/>
+                <FlipCards/> */}
             </section>
             <section className="section" id="careers">
                 <ChooseUS />
             </section>
             <section className="section" id="blogs">
-                {/* <Blog /> */}
-                <Blog2/>
-            </section>
-            <section className="section" id="blogs">
                 <Footer2/>
             </section>
+            <section className="section" id="blogs">
+                <Blog2/>
+                <Wave/>
+            </section>
+            
         </div>
         <About />
     </>

@@ -1,7 +1,9 @@
 .testimonial {
   padding: 6rem 0rem;
-  background-color: rgb(42 127 37);
+  background: rgb(1,10,5);
+background: linear-gradient(15deg,  rgb(9, 97, 34) 20%, rgb(1, 48, 22) 50%);
   width: 100%;
+  position: relative;
 }
 
 .testimonial-main {
@@ -18,12 +20,12 @@
 }
 
 .testimonial-main-left {
-  width: 40%;
+  width: 100%;
 }
-.testimonial-main-right {
-  width: 60%;
-  padding: 0px 20px;
-}
+/* .testimonial-main-right {
+  width: 55%;
+  /* padding: 0px 20px; */
+/* } */ 
 .testimonial-main-right .owl-carousel .owl-nav {
   display: block;
   position: absolute;
@@ -94,18 +96,23 @@
 .testimonial-left-body {
   display: flex;
   align-items: center;
+  padding-top: 20px;
 }
 .testimonial-left-body h2 {
   margin: 0;
   margin-right: 25px;
   border-right: 1px solid rgb(172, 172, 172);
   padding-right: 25px;
+  font-size: 2rem;
+  width: 35%;
 }
 .testimonial-left-body p {
+  border-top: 1px solid rgb(172, 172, 172);
   display: flex;
   align-items: center;
   margin: 0;
-  width: 40%;
+  padding-top: 20px;
+  /* width: 40%; */
 }
 
 .testimonial-right-body {
@@ -143,6 +150,13 @@
 .testimonial-foot-box img{
     width: 100%;
 
+}
+
+
+.testimonial-main-foot .branded img{
+  position: absolute;
+  right: 0;
+  bottom: -8.5%;
 }
 
 @media (min-width: 1200px) {

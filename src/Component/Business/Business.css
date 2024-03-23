@@ -1,13 +1,13 @@
 .services {
-    padding: 6rem 0rem;
+    padding: 6rem 0rem 0 0;
     background-color: #b1b1b121;
     width: 100%;
 }
 
 .service-box {
     width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
+    /* padding-right: 15px;
+    padding-left: 15px; */
     margin-right: auto;
     margin-left: auto;
 }
@@ -48,6 +48,7 @@
     padding: 15px;
     color: #fff;
     transition: background-color .3s ease-in-out;
+    cursor: pointer;
 }
 
 .services-cards-title:hover {
@@ -210,9 +211,9 @@
 /* ..../...... */
 
 @media (min-width: 1200px) {
-    .service-box {
+    /* .service-box {
         max-width: 1140px;
-    }
+    } */
 }
 
 

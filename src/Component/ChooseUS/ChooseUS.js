@@ -9,10 +9,10 @@ const ChooseUS = () => {
         <div className='ChooseUS'>
             <div className='ChooseUS-main'>
                 <div className="ChooseUS-main-heading">
-                    <h5><HiOutlineSquare2Stack/>Many Reasons</h5>
+                    {/* <h5><HiOutlineSquare2Stack/>Many Reasons</h5> */}
                     <div className="ChooseUS-main-head">
-                        <h2><TbArrowBigRightLinesFilled/> Why<span> Choose Us</span> </h2>
-                        <p>Read More</p>
+                        <h2>Cultivating Tomorrow, Today</h2>
+                        {/* <p>Read More</p> */}
                     </div>
                 </div>
                 <div className="ChooseUS-main-body">

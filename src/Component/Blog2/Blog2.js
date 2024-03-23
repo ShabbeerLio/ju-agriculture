@@ -5,20 +5,19 @@ import ReactOwlCarousel from 'react-owl-carousel'
 const Blog2 = () => {
     return (
         <div className='blog2'>
-            <div className='blog2-main'>
                 <div className="blog2-theam">
-                    <span>farmer</span>
+                    <span>blogs</span>
                 </div>
+            <div className='blog2-main'>
                 <div className="blog2-left">
-                    <span>Luxury packages</span>
-                    <h2>Our spa massage therapy packages</h2>
+                    <h2>RECENT PUBLISHES</h2>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, alias.</p>
                 </div>
                 <div className="blog2-right">
                     <div className="blog2-item-scroll">
                         <ReactOwlCarousel
                             loop={Infinity}
-                            items={3}
+                            items={1.5}
                             autoplay={true}
                             autoplayTimeout={3000}
                             nav={true}
@@ -29,42 +28,42 @@ const Blog2 = () => {
                         >
                             <div className="blog2-item">
                                 <div className="blog2-item-image">
-                                    <img src="https://lithoreact.themezaa.com/assets/img/webp/spa-image-10.webp" alt="" />
+                                    <img src="https://juagrisciences.com/uploads/blog/category/171024083515jpg.jpg" alt="" />
                                     <div className="blog2-image-shade"></div>
                                 </div>
                                 <div className="blog2-item-detail">
-                                    <p>Button</p>
-                                    <h5>Spa days are a necessity not a luxury</h5>
+                                    <h5>Empowering Agriculture | Revolutionizing Farmers through Upskilling</h5>
+                                    <p>Learn More</p>
                                 </div>
                             </div>
                             <div className="blog2-item">
                                 <div className="blog2-item-image">
-                                    <img src="https://lithoreact.themezaa.com/assets/img/webp/spa-image-09.webp" alt="" />
+                                    <img src="https://juagrisciences.com/uploads/blog/category/1709617265202310largeimg1603523499jpg.jpg" alt="" />
                                     <div className="blog2-image-shade"></div>
                                 </div>
                                 <div className="blog2-item-detail">
-                                    <p>Button</p>
-                                    <h5>Spa days are a necessity not a luxury</h5>
+                                    <h5>MS Swaminathan | Father of Green Revolution who made India food surplus</h5>
+                                    <p>Learn More</p>
                                 </div>
                             </div>
                             <div className="blog2-item">
                                 <div className="blog2-item-image">
-                                    <img src="https://lithoreact.themezaa.com/assets/img/webp/spa-image-09.webp" alt="" />
+                                    <img src="https://juagrisciences.com/uploads/blog/category/170495326813jpg.jpg" alt="" />
                                     <div className="blog2-image-shade"></div>
                                 </div>
                                 <div className="blog2-item-detail">
-                                    <p>Button</p>
-                                    <h5>Spa days are a necessity not a luxury</h5>
+                                    <h5>Harnessing Nature’s Power: Biostimulants in Agriculture</h5>
+                                    <p>Learn More</p>
                                 </div>
                             </div>
                             <div className="blog2-item">
                                 <div className="blog2-item-image">
-                                    <img src="https://lithoreact.themezaa.com/assets/img/webp/spa-image-09.webp" alt="" />
+                                    <img src="https://juagrisciences.com/uploads/blog/category/1695801436farmer-2jpg.jpg" alt="" />
                                     <div className="blog2-image-shade"></div>
                                 </div>
                                 <div className="blog2-item-detail">
-                                    <p>Button</p>
-                                    <h5>Spa days are a necessity not a luxury</h5>
+                                    <h5>Argyroxiphium: The Enigmatic Silver Sword Alliance</h5>
+                                    <p>Learn More</p>
                                 </div>
                             </div>
                         </ReactOwlCarousel>

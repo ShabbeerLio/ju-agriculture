@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import "./Navbar.css"
 import Logo from "../../Assets/logo.png"
 import { IoSearch, IoApps, IoPeopleOutline } from "react-icons/io5";
-import {FaLocationDot, FaEnvelope } from "react-icons/fa6";
+import { FaLocationDot, FaEnvelope } from "react-icons/fa6";
 import SocialMedia from './SocialMedia';
 // import FormFloat from './FormFloat';
 
@@ -62,6 +62,7 @@ const Navbar = (props) => {
         <>
             <div className="navBar">
                 <div id="myNavMenu" className={menuClass}>
+                   
                     <nav className="row navbar navbar-expand-lg navbar-light align-items-lg-end">
                         <div className="container-fluid">
                             <a className="navBar-logo" href="#home">
@@ -161,9 +162,13 @@ const Navbar = (props) => {
                                                     </li>
                                                 </ul>
                                             </div>
-                                            <div className="side-media">
-                                                <SocialMedia/>
-                                            </div>
+                                            {/* <div className="side-media">
+                                                <div className="media-heading">
+                                                    <h6>Social Media</h6>
+                                                    <div className="line"></div>
+                                                </div>
+                                                <SocialMedia />
+                                            </div> */}
                                         </div>
                                     </div>
                                 </div>

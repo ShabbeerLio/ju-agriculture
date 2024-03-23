@@ -1,0 +1,127 @@
+.hovercard {
+  height: 100%;
+  position: relative;
+}
+.hovercard-item1 .hovercard-main-image {
+  background-image: url("https://lithoreact.themezaa.com/assets/img/webp/home-interior-design-services.webp");
+  object-fit: cover;
+  background-position: 50%;
+  background-size: cover;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  opacity: 1;
+  visibility: visible;
+  transition-duration: .5s;
+}
+.hovercard-item2 .hovercard-main-image {
+  background-image: url("https://lithoreact.themezaa.com/assets/img/webp/home-interior-design-services-02.webp");
+  object-fit: cover;
+  background-position: 50%;
+  background-size: cover;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  visibility: hidden;
+  opacity: 0;
+  transition-duration: .5s;
+}
+
+.hovercard-item3 .hovercard-main-image {
+  background-image: url("https://lithoreact.themezaa.com/assets/img/webp/home-interior-design-services-03.webp");
+  object-fit: cover;
+  background-position: 50%;
+  background-size: cover;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  visibility: hidden;
+  opacity: 0;
+  transition-duration: .5s;
+}
+.hovercard-item4 .hovercard-main-image {
+  background-image: url("https://lithoreact.themezaa.com/assets/img/webp/home-interior-design-services-04.webp");
+  object-fit: cover;
+  background-position: 50%;
+  background-size: cover;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  visibility: hidden;
+  opacity: 0;
+  transition-duration: .5s;
+}
+
+.hovercard-item1:hover .hovercard-main-image,
+.hovercard-item2:hover .hovercard-main-image,
+.hovercard-item3:hover .hovercard-main-image,
+.hovercard-item4:hover .hovercard-main-image {
+  opacity: 1;
+  visibility: visible;
+}
+
+.hovercard-main {
+  display: flex;
+  align-items: center;
+}
+
+.hovercard-item1,
+.hovercard-item2,
+.hovercard-item3,
+.hovercard-item4 {
+    cursor: pointer;
+  width: 25%;
+  opacity: 1;
+}
+
+.hovercard-item1:hover .hovercard-main-heading,
+.hovercard-item2:hover .hovercard-main-heading,
+.hovercard-item3:hover .hovercard-main-heading,
+.hovercard-item4:hover .hovercard-main-heading {
+    background-color: #c3964e;
+    transform: translateY(0);
+}
+.hovercard-item1:hover .hovercard-main-title,
+.hovercard-item2:hover .hovercard-main-title,
+.hovercard-item3:hover .hovercard-main-title,
+.hovercard-item4:hover .hovercard-main-title {
+    opacity: 1;
+}
+
+.hovercard-main-heading {
+  bottom: 0;
+  height: auto;
+  left: 0;
+  position: absolute;
+  top: auto;
+  transform: translateY(70px);
+  transition: all 0.5s ease-in-out;
+  width: 100%;
+  z-index: 9;
+  padding: 1.5rem 2rem;
+  color: white;
+}
+.hovercard-main-heading h3{
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.hovercard-main-box {
+  position: relative;
+  height: 500px;
+  z-index: 9;
+  border-right: 1px solid #fff3;
+  overflow: hidden;
+}
+
+.hovercard-main-title{
+    transition-duration: .5s;
+    opacity: 0;
+}
+.hovercard-main-title p{
+    color: rgba(255, 255, 255, 0.781);;
+}

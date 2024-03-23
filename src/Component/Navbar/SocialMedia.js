@@ -6,10 +6,6 @@ import { FaInstagram, FaFacebookF, FaYoutube, FaTwitter, FaLinkedinIn } from "re
 const SocialMedia = () => {
     return (
         <>
-            <div className="media-heading">
-                <h6>Social Media</h6>
-                <div className="line"></div>
-            </div>
             <div className="media-items">
                 <p>
                     <FaTwitter />

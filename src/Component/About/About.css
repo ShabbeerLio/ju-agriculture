@@ -1,5 +1,5 @@
 .aboutUs {
-    padding: 6rem 0 0 0;
+    padding: 0rem 0 0 0;
     width: 100%;
     position: relative;
     /* background-image: linear-gradient(white ,rgba(255, 255, 255, 0.61) , rgba(128, 128, 128, 0.171)); */
@@ -23,6 +23,14 @@
     margin-left: auto;
     gap: 2rem;
 }
+.footer-down {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    gap: 2rem;
+}
 
 /* .about-main-heading {
     display: flex;
@@ -32,8 +40,9 @@
 
 .about-detail-box {
     display: flex;
-    align-items: center;
-    gap: 1rem;
+    align-items: baseline;
+    justify-content: space-between;
+    /* gap: 1rem; */
 }
 
 .about-left {
@@ -277,23 +286,44 @@
 } */
 
 .footer-down{
+    
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     border-top: 1px solid #ccc;
     margin-top: 3rem;
-    padding-top: 20px;
+    padding-top: 15px;
 }
 
 
 .footer-copyright {
     display: flex;
     align-items: center;
+    /* width: 100%; */
 }
 
-.footer-copyright p a {
-    color: #73b628;
+.footer-copyright p {
     text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.footer-copyright-menu ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-copyright-menu ul li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 10px;
+    font-size: 12px;
+}
+.footer-copyright-menu ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
 }
 
 
@@ -361,25 +391,28 @@
 }
 
 .about-social-media svg {
-    font-size: 18px;
+    font-size: 12px;
     position: relative;
 }
 
 .about-social-media p {
     position: relative;
-    display: block;
+    /* display: block; */
     line-height: 42px;
-    height: 42px;
-    width: 42px;
+    height: 25px;
+    width: 25px;
     border-radius: 50%;
     text-align: center;
     font-size: 14px;
-    color: #fff;
-    background-color:  rgb(42 127 37);
+    color: rgb(42 127 37);
+    /* background-color:  rgb(42 127 37); */
     -webkit-transition: all 300ms ease;
     transition: all 300ms ease;
     margin: 0px 10px 0px 0px;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .about-social-media p:before {
     position: absolute;
@@ -484,6 +517,9 @@
 
 @media (min-width: 1200px) {
     .about-main {
+        max-width: 1140px;
+    }
+    .footer-down {
         max-width: 1140px;
     }
 }
