@@ -164,3 +164,33 @@ background: linear-gradient(15deg,  rgb(9, 97, 34) 20%, rgb(1, 48, 22) 50%);
     max-width: 1140px;
   }
 }
+
+@media only screen and (max-width: 990px) {
+  .testimonial-main {
+    max-width: 720px;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+
+  .testimonial-main-left h2{
+    font-size: 40px;
+  }
+
+  .testimonial-left-body{
+    display: block;
+  }
+  .testimonial-left-body h2{
+    border: none;
+    padding-bottom: 10px;
+    font-size: 25px;
+    width: 100%;
+  }
+  .testimonial-foot-box{
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .testimonial-foot-box img{
+    padding-bottom: 20px;
+    /* width: 40%; */
+  }
+}

@@ -143,10 +143,27 @@
     }
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 420px) {
+
+    .Banners-detail{
+        bottom: 10%;
+    }
+
+    .banner-desc{
+        width: 100%;
+    }
     .Banners-detail h1 {
         font-size: 42px;
         letter-spacing: 2px;
+    }
+    
+
+    .banner-button{
+        width: 100%;
+    }
+
+    .counter-box{
+        margin-bottom: 10px;
     }
 
 }

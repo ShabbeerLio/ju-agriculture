@@ -121,3 +121,27 @@
     max-width: 1140px;
   }
 }
+
+@media only screen and (max-width: 990px) {
+  .ChooseUS-main {
+    max-width: 720px;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+.ChooseUS-main-body{
+  display: block;
+}
+
+.choose-body-item{
+  padding-top: 20px;
+}
+
+.choose-body-item .line {
+  margin: 5px 0px 20px 0px ;
+}
+
+.ChooseUS-main-head h2{
+  font-size: 40px;
+}
+}

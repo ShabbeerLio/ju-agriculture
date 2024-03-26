@@ -30,10 +30,10 @@ const Map = () => {
                 <div className="map-right">
                     <div className="map-icon-arrow">
                         <IoArrowUndoSharp />
-                    </div>
-                    <div className="map-right-head">
-                        <h5>Since 1894</h5>
-                        <p>Our Achivements</p>
+                        <div className="map-right-head">
+                            <h5>Since 1894</h5>
+                            <p>Our Achivements</p>
+                        </div>
                     </div>
                     <div className="mapright-counter">
                         <div className="counter-box">

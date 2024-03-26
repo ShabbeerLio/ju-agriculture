@@ -33,6 +33,9 @@
     align-items: center;
 }
 .map-right .map-icon-arrow{
+    display: flex;
+}
+.map-right .map-icon-arrow svg{
     font-size: 50px;
     rotate: 180deg;
     color: #55b559;
@@ -98,12 +101,23 @@
     }
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 420px) {
+    .Map{
+        top: auto;
+        bottom: 0%;
+    }
     .map-main {
+        max-width: 380px;
+    }
+
+    .map-right {
         display: block;
     }
     .mapright-counter {
-        display: block;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding-top: 20px;
     }
    
 }

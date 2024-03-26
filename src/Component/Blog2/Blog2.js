@@ -3,6 +3,18 @@ import "./Blog2.css"
 import ReactOwlCarousel from 'react-owl-carousel'
 
 const Blog2 = () => {
+
+    const responsiveOptions = {
+        0: {
+            items: 1,
+        },
+        768: {
+            items: 2,
+        },
+        1024: {
+            items: 1.5,
+        },
+    };
     return (
         <div className='blog2'>
                 <div className="blog2-theam">
@@ -24,6 +36,7 @@ const Blog2 = () => {
                             dots={false}
                             animateOut='fadeOut'
                             animateIn='fadeIn'
+                            responsive={responsiveOptions}
 
                         >
                             <div className="blog2-item">

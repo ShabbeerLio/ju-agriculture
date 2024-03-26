@@ -229,9 +229,9 @@
         ;
     }
 
-    .service-box {
+    /* .service-box {
         max-width: 720px;
-    }
+    } */
 }
 
 @media only screen and (max-width: 720px) {
@@ -253,9 +253,9 @@
         width: 100%;
     }
 
-    .service-box {
+    /* .service-box {
         max-width: 520px;
-    }
+    } */
 }
 
 @media only screen and (max-width: 420px) {
@@ -272,6 +272,10 @@
     .boxes7,
     .boxes8 {
         margin-bottom: 10px;
+    }
+
+    .services-cards-title h2{
+        font-size: 40px;
     }
 
 }
