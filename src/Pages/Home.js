@@ -31,8 +31,7 @@ const Home = () => {
                     nav={false}
                     dots={false}
                     animateOut='fadeOut'
-                    animateIn='fadeIn'
-                      
+                    animateIn='fadeIn'  
                 >
                     {BannerData.map((item) => (
                         <Banner
