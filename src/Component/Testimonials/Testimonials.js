@@ -12,7 +12,6 @@ import branded from "../../Assets/cb1.png"
 
 const Testimonials = () => {
 
-    // const [reviews, setReviews] = useState(34)
     const [stars, setStars] = useState(4.5);
 
     return (
@@ -31,49 +30,13 @@ const Testimonials = () => {
                             <p>Collaboration is the key to lasting progress. We have partnered with globally renowned agricultural solution providers to bring the latest technology driven solutions at the doorsteps of Indian farming community.</p>
                         </div>
                     </div>
-                    {/* <div className="testimonial-main-right">
-                        <ReactOwlCarousel
-                            loop={Infinity}
-                            items={1}
-                            autoplay={true}
-                            autoplayTimeout={3000}
-                            nav={true}
-                            dots={false}
-                        >
-                            <div className="testimonial-right-body">
-                                <div className="testimonial-right-stars">
-                                    <Star stars={stars}/>
-                                </div>
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde impedit at maiores perferendis suscipit ea, sunt iure? Voluptatibus, numquam dolores?</p>
-                                <div className="testimonial-right-names">
-                                    <h5>Herman miller</h5>
-                                    <p>Business owner</p>
-                                </div>
-                            </div>
-                            <div className="testimonial-right-body">
-                                <div className="testimonial-right-stars">
-                                    <Star  stars={stars}/>
-                                </div>
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde impedit at maiores perferendis suscipit ea, sunt iure? Voluptatibus, numquam dolores?</p>
-                                <div className="testimonial-right-names">
-                                    <h5>miller Herman </h5>
-                                    <p>CEO</p>
-                                </div>
-                            </div>
-                        </ReactOwlCarousel>
-                    </div> */}
+
                 </div>
                 <div className="testimonial-main-foot">
                     <div className="testimonial-foot-box">
                         <img src={testimonial2} alt="" />
                         <img src={testimonial1} alt="" />
-                        {/* <img src={testimonial1} alt="" />
-                        <img src={testimonial2} alt="" />
-                        <img src={testimonial1} alt="" /> */}
                     </div>
-                    {/* <div className="branded">
-                        <img src={branded} alt="" />
-                    </div> */}
                 </div>
             </div>
         </div>

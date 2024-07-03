@@ -1,0 +1,75 @@
+.PtrCard {
+  text-align: center;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  height: 100%;
+}
+
+.PtrCard img {
+  width: 30%;
+  object-fit: cover;
+  /* padding: 2rem; */
+}
+
+.PtrCard svg {
+  position: relative;
+  z-index: 3;
+  /* opacity: 1; */
+  color: rgba(255, 255, 255, 0.08);
+  font-size: 40px;
+}
+.PtrCard .top {
+  position: absolute;
+  top: -20px;
+  left: -20px;
+}
+.PtrCard .bottom {
+  position: absolute;
+  bottom: -20px;
+  right: -20px;
+}
+
+.PtrCard .top:after,
+.PtrCard .bottom:after,
+.PtrCard .left:after {
+  content: "";
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  right: -20px;
+  bottom: -20px;
+  background: #1a1a1a;
+  z-index: 2;
+}
+
+.PtrCard .left {
+  display: none;
+}
+.pcard4 .PtrCard .left {
+  display: block;
+  position: absolute;
+  bottom: -20px;
+  left: -20px;
+}
+.pcard4 .PtrCard {
+  border-bottom: none;
+  border-left: none;
+}
+.pcard3 .PtrCard {
+  border-top: none;
+  border-right: none;
+}
+
+/* .pcard3 .PtrCard:after {
+  content: "";
+  position: absolute;
+  top: -30px;
+  left: 0px;
+  right: -100vw;
+  bottom: 0;
+  background: #1d1d1d;
+  border-radius: 0 0 0 30px;
+} */

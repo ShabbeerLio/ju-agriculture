@@ -1,0 +1,133 @@
+.Partners {
+  padding: 6rem 0rem;
+  background: #1a1a1a;
+  width: 100%;
+  position: relative;
+}
+
+.Partners-main {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.Partner-cards-title .first-layout{
+    display: flex;
+    align-items: center;
+}
+.Partner-cards-title h5{
+    font-size: 20px;
+    text-align: left !important;
+    color: yellow;
+}
+.Partner-cards-title .first-layout h3{
+   font-size: 40px;
+   font-weight: 700;
+   margin-right: 10px;
+   color: white;
+}
+.Partner-cards-title .first-layout h4{
+    font-size: 40px;
+   font-weight: 400;
+   color: white;
+}
+
+.Partner-cards-title .second-layout{
+    display: flex;
+    align-items: center;
+}
+
+.Partners-box {
+  position: relative;
+  width: 100%;
+  display: grid;
+  grid-template-areas:
+    "pcard1 pcard2 pcard3 pcard3"
+    "pcard4 pcard5 pcard6 pcard7";
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.pcard1 {
+  grid-area: pcard1;
+  height: 250px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  transition: padding 0.5s;
+}
+
+.pcard2 {
+  grid-area: pcard2;
+  height: 250px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  transition: padding 0.5s;
+}
+
+.pcard3 {
+  grid-area: pcard3;
+  height: 250px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  transition: padding 0.5s;
+}
+
+.pcard4 {
+  grid-area: pcard4;
+  height: 250px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  transition: padding 0.5s;
+}
+
+.pcard5 {
+  grid-area: pcard5;
+  height: 250px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  transition: padding 0.5s;
+}
+
+.pcard6 {
+  grid-area: pcard6;
+  height: 250px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  transition: padding 0.5s;
+}
+
+.pcard7 {
+  grid-area: pcard7;
+  height: 250px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  transition: padding 0.5s;
+}
+
+@media (min-width: 1200px) {
+  .Partners-main {
+    max-width: 1140px;
+  }
+}

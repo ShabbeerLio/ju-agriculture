@@ -1,10 +1,10 @@
 .navBar {
-    border-top: 3px solid #73b628;
+    border-top: 3px solid #929495;
     width: 100%;
     position: fixed;
     top: 0;
     z-index: 9999;
-    background-color: #ffffff;
+    background-color: black;
     box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.3);
 }
 
@@ -39,7 +39,7 @@
     position: absolute;
     height: 2px;
     width: 100%;
-    background: #6e6e6e;
+    background: white;
     border-radius: 1px;
     opacity: 1;
     left: 0;
@@ -115,12 +115,12 @@
     padding: 10px 0px !important;
     font-size: 16px;
     /* font-weight: 500; */
-    color: rgb(41, 41, 41) !important;
+    color: white !important;
     text-transform: capitalize;
 }
 
 .nav-menu ul li a:hover {
-    color: #73b628 !important;
+    color: #929495 !important;
 }
 
 .nav-action {
@@ -132,11 +132,11 @@
 .nav-action svg {
     font-size: 25px;
     margin-right: 20px;
-    color: rgb(41, 41, 41);
+    color: white;
 }
 
 .nav-action svg:hover {
-    color: #73b628 !important;
+    color: #929495 !important;
 }
 
 .call-number {
@@ -151,7 +151,7 @@
 .call-number p {
     text-decoration: none;
     margin: 0;
-    color: gray;
+    color: white;
     font-size: 15px;
     font-weight: 400;
 }
@@ -159,25 +159,26 @@
 .call-number a {
     text-decoration: none;
     margin: 0;
-    color: rgb(42 127 37);
+    color: white;
     font-size: 18px;
     font-weight: 700;
 }
 
 .call-number:hover a,
 .call-number:hover p {
-    color: #73b628 !important;
+    color: #929495 !important;
 }
 
 .call-number svg {
     margin: 0;
-    color: rgb(42 127 37);
+    color: white;
     font-size: 30px;
     font-weight: 700;
     margin-right: 10px;
 }
 
 .offcanvas {
+    background-color: black;
     transition: transform 1s cubic-bezier(0.22, 0.61, 0.36, 1);
     /* -webkit-transition: opacity 1s, transform 1.2s cubic-bezier(0.22, 0.61, 0.36, 1); */
 }
@@ -200,22 +201,26 @@
     margin-top: 60px;
 }
 
+.offcanvas-body h6 {
+    /* margin: 0; */
+    color: white;
+}
 .offcanvas-body p {
     margin: 0;
-    color: rgb(105, 105, 105);
+    color: white;
 }
 
 .offcanvas-body .line1 {
     width: 20%;
     height: 2px;
-    border-top: 1px solid rgb(42 127 37);
+    border-top: 1px solid white;
     margin-bottom: 10px;
 }
 
 .offcanvas-body .line {
     width: 40%;
     height: 2px;
-    border-top: 1px solid rgb(42 127 37);
+    border-top: 1px solid white;
     margin-bottom: 10px;
 }
 
@@ -233,7 +238,7 @@
 }
 
 .offcanvas-body .side-contactInfo ul li svg {
-    color: rgb(42 127 37);
+    color: white;
     font-size: 25px;
     margin-right: 20px;
 }

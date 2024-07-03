@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import "./Navbar.css"
-import Logo from "../../Assets/logo.png"
+import Logo from "../../Assets/logo.jpg"
 import { IoSearch, IoApps, IoPeopleOutline } from "react-icons/io5";
 import { FaLocationDot, FaEnvelope } from "react-icons/fa6";
 import SocialMedia from './SocialMedia';
@@ -65,7 +65,7 @@ const Navbar = (props) => {
                    
                     <nav className="row navbar navbar-expand-lg navbar-light align-items-lg-end">
                         <div className="container-fluid">
-                            <a className="navBar-logo" href="#home">
+                            <a className="navBar-logo" href="/walls&dreams">
                                 <img src={Logo} alt="" />
                             </a>
                             <button className="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -76,22 +76,22 @@ const Navbar = (props) => {
                             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul className="navbar-nav ml-auto">
                                     <li className="nav-item">
-                                        <a className="nav-link active" href="#home" onClick={closeMenu}>Home</a>
+                                        <a className="nav-link active" href="/walls&dreams" onClick={closeMenu}>Home</a>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" href="#about" onClick={closeMenu}>About Us</a>
+                                        <a className="nav-link" href="/walls&dreams/about" onClick={closeMenu}>About Us</a>
                                     </li>
                                     <li className="nav-item ">
                                         <a className="nav-link dropdown-toggle" href="#business" onClick={closeMenu}>Our Business</a>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" href="#gallery" onClick={closeMenu}>Gallery</a>
+                                        <a className="nav-link" href="/walls&dreams/gallery" onClick={closeMenu}>Gallery</a>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" href="#careers" onClick={closeMenu}>Careers</a>
+                                        <a className="nav-link" href="/walls&dreams/careers" onClick={closeMenu}>Careers</a>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" href="#blogs" onClick={closeMenu}>Blogs</a>
+                                        <a className="nav-link" href="/walls&dreams/blogs" onClick={closeMenu}>Blogs</a>
                                     </li>
                                 </ul>
                             <div className="nav-action">
@@ -107,14 +107,14 @@ const Navbar = (props) => {
                                         <div class="offcanvas-header">
                                             <h5 id="offcanvasRightLabel">
                                                 <a className="navBar-logo" href="#home">
-                                                    <img src={Logo} alt="" />
+                                                    <img src={Logo} alt="cscsa" />
                                                 </a>
                                             </h5>
                                             <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                                         </div>
                                         <div class="offcanvas-body">
-                                            <h6>Welcome to Jhaver Group </h6>
-                                            <p>JU Agri Sciences private Limited is a group company of Jhaver Group.</p>
+                                            <h6>Welcome to Walls & Dreams </h6>
+                                            <p>JU Agri Sciences private Limited is a group company of Walls & Dreams.</p>
                                             <div className="side-contactInfo">
                                                 <h6>Contact Us</h6>
                                                 <div className="line1"></div>
