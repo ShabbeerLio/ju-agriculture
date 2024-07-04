@@ -1,7 +1,7 @@
 .testimonial {
   padding: 6rem 0rem;
-  background: rgb(1,10,5);
-background: linear-gradient(15deg,  rgb(9, 97, 34) 20%, rgb(1, 48, 22) 50%);
+  background: #1a1a1a;
+/* background: linear-gradient(15deg,  rgb(9, 97, 34) 20%, rgb(1, 48, 22) 50%); */
   width: 100%;
   position: relative;
 }
@@ -21,40 +21,6 @@ background: linear-gradient(15deg,  rgb(9, 97, 34) 20%, rgb(1, 48, 22) 50%);
 
 .testimonial-main-left {
   width: 100%;
-}
-/* .testimonial-main-right {
-  width: 55%;
-  /* padding: 0px 20px; */
-/* } */ 
-.testimonial-main-right .owl-carousel .owl-nav {
-  display: block;
-  position: absolute;
-  top: 45%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-}
- .owl-carousel .owl-nav button.owl-prev,
-.owl-carousel .owl-nav button.owl-next {
-  background: white;
-  color: black;
-  border: none;
-  padding: 0 !important;
-  font: inherit;
-  border-radius: 50px;
-  width: 50px;
-  height: 50px;
-  margin: 7px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  position: relative;
-}
-.testimonial-main-right .owl-carousel .owl-nav button.owl-prev span,
-.testimonial-main-right .owl-carousel .owl-nav button.owl-next span {
-  font-size: 35px;
-  position: absolute;
-  top: -10%;
-  right: 20px;
 }
 
 .testimonial-left-head {
@@ -76,7 +42,7 @@ background: linear-gradient(15deg,  rgb(9, 97, 34) 20%, rgb(1, 48, 22) 50%);
 }
 .testimonial-left-head p svg {
   font-size: 20px;
-  color: rgb(42 127 37);
+  color: black;
 }
 .testimonial-left-head span {
   font-size: 20px;

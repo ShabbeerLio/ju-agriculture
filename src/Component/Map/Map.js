@@ -1,6 +1,5 @@
-import React, { useRef } from 'react';
+import React from 'react';
 import './Map.css';
-import MapImg from '../../Assets/Images/Map/map_img-800x433.png';
 import CountUp from 'react-countup';
 import { useInView } from 'react-intersection-observer';
 import { RiEmotionHappyLine } from "react-icons/ri";

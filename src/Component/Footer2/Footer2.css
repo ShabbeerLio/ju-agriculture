@@ -1,8 +1,7 @@
 .footer2-main {
   display: flex;
   align-items: center;
-  /* gap: 5rem; */
-  /* background-color: green; */
+  background-color: #1a1a1a;
 }
 
 .footer2-left {
@@ -34,19 +33,18 @@
   height: 330px;
 }
 .footer2-left-item h2 {
-  color: rgb(0, 0, 0);
   font-size: 4rem;
-    padding: 5px;
-    margin: 0;
-    font-weight: 900;
-    color: rgb(36, 36, 36);
-  
+  padding: 5px;
+  margin: 0;
+  font-weight: 900;
+  color: white;
 }
-.footer2-left-item h2 span{
+.footer2-left-item p {
+  color: white;
+}
+.footer2-left-item h2 span {
   font-weight: 100;
-  
 }
-
 
 .footer2-right {
   width: 50%;
@@ -70,7 +68,7 @@
 .footer2-item-box {
   width: 50%;
   text-align: center;
-  background-color: #005800;
+  background-color: #1d1d1d;
   color: white;
 }
 
@@ -94,76 +92,75 @@
   height: 100%;
   padding: 0px 20px;
 }
-.footer2-box-text h3{
+.footer2-box-text h3 {
   text-transform: uppercase;
   font-size: 2rem;
-    padding: 5px;
-    margin: 0;
-    font-weight: 900;
+  padding: 5px;
+  margin: 0;
+  font-weight: 900;
 }
 
-.overlayer{
+.overlayer {
   position: absolute;
-    background: rgba(0, 0, 0, 0.37);
-    height: 1px;
-    width: 25%;
+  background: rgba(0, 0, 0, 0.37);
+  height: 1px;
+  width: 25%;
 }
 
 @media only screen and (max-width: 990px) {
-  .footer2-main{
+  .footer2-main {
     display: block;
   }
 
-  .footer2-left{
+  .footer2-left {
     width: 100%;
   }
 
-  .footer2-right{
+  .footer2-right {
     width: 100%;
   }
 }
 
 @media only screen and (max-width: 420px) {
-  .footer2-main{
+  .footer2-main {
     display: block;
   }
 
-  .footer2-left{
+  .footer2-left {
     width: 100%;
   }
 
-  .footer2-left-item-box{
+  .footer2-left-item-box {
     flex-direction: column;
   }
 
   .footer2-right-item {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
   }
-  
+
   .footer2-right-item > :nth-child(1) {
-    order: 2; 
+    order: 2;
   }
-  
+
   .footer2-right-item > :nth-child(2) {
     order: 1;
   }
 
-  .footer2-right{
+  .footer2-right {
     width: 100%;
   }
 
-  .footer2-item-image{
+  .footer2-item-image {
     width: 100%;
   }
 
-  .footer2-item-box{
+  .footer2-item-box {
     width: 100%;
     height: 330px;
   }
 
-  .footer2-left-item h2{
+  .footer2-left-item h2 {
     font-size: 50px;
   }
 }
-

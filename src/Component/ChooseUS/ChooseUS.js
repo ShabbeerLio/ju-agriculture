@@ -1,8 +1,6 @@
 import React from 'react'
 import "./ChooseUS.css";
 import { FaCircleDot } from "react-icons/fa6";
-import { HiOutlineSquare2Stack } from "react-icons/hi2";
-import { TbArrowBigRightLinesFilled } from "react-icons/tb";
 
 const ChooseUS = () => {
     return (

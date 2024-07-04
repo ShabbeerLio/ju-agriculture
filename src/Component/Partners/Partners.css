@@ -3,6 +3,7 @@
   background: #1a1a1a;
   width: 100%;
   position: relative;
+  overflow: hidden;
 }
 
 .Partners-main {
@@ -13,30 +14,56 @@
   margin-left: auto;
 }
 
-.Partner-cards-title .first-layout{
-    display: flex;
-    align-items: center;
-}
-.Partner-cards-title h5{
-    font-size: 20px;
-    text-align: left !important;
-    color: yellow;
-}
-.Partner-cards-title .first-layout h3{
-   font-size: 40px;
-   font-weight: 700;
-   margin-right: 10px;
-   color: white;
-}
-.Partner-cards-title .first-layout h4{
-    font-size: 40px;
-   font-weight: 400;
-   color: white;
+.Partner-cards-title .first-layout {
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 3;
 }
 
-.Partner-cards-title .second-layout{
-    display: flex;
-    align-items: center;
+.Partner-cards-title h5 {
+  font-size: 16px;
+  position: relative;
+  z-index: 3;
+  text-align: left !important;
+  color: yellow;
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+.Partner-cards-title h6 {
+  font-size: 18px;
+
+  font-weight: 400;
+  color: white;
+}
+.Partner-cards-title .first-layout h3 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-right: 10px;
+  color: white;
+}
+.Partner-cards-title .first-layout h4 {
+  font-size: 40px;
+  font-weight: 400;
+  color: white;
+}
+
+.Partner-cards-title .second-layout {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+.Partner-cards-title .second-layout h4 {
+  font-size: 70px;
+  font-weight: 400;
+  /* margin-right: 10px; */
+  color: white;
+}
+.Partner-cards-title .second-layout h3 {
+  font-size: 35px;
+  font-weight: 300;
+  margin-right: 10px;
+  color: white;
 }
 
 .Partners-box {
@@ -129,5 +156,50 @@
 @media (min-width: 1200px) {
   .Partners-main {
     max-width: 1140px;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .Partners-box {
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-areas:
+      "pcard3"
+      "pcard4"
+      "pcard1"
+      "pcard2"
+      "pcard5"
+      "pcard6"
+      "pcard7";
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .pcard3 .PtrCard .PtrCard-box {
+    position: relative !important;
+    right: 0;
+    top: 0;
+    padding: 2rem 3rem;
+  }
+
+  .pcard3 .PtrCard .top {
+    display: none;
+  }
+  .pcard3 .PtrCard {
+    border: none;
+  }
+
+  .pcard3 .PtrCard .PtrCard-box:after {
+    display: none;
+  }
+
+  .pcard4 .PtrCard {
+    border-left: 1px solid rgba(255, 255, 255, 0.08) !important;
+  }
+  .Partner-cards-title .first-layout h3 {
+    font-size: 27px;
+  }
+  .Partner-cards-title .first-layout h4 {
+    font-size: 27px;
   }
 }
