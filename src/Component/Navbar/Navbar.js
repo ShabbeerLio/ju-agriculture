@@ -1,11 +1,25 @@
 import React, { useEffect, useState } from 'react'
 import "./Navbar.css"
-import Logo from "../../Assets/logo.jpg"
+import Logo from "../../Assets/logo.png"
 import { IoSearch, IoApps, IoPeopleOutline } from "react-icons/io5";
 import { FaLocationDot, FaEnvelope } from "react-icons/fa6";
-import { Link } from 'react-router-dom';
+import SocialMedia from './SocialMedia';
+// import FormFloat from './FormFloat';
 
 const Navbar = (props) => {
+
+    // const [formopen, setFormopen] = useState(false);
+
+    // const formIsOpen = () => {
+
+    //     console.log("open")
+    //     setFormopen(!formopen);
+    // }
+    // const formIsClose = () => {
+    //     setFormopen(false)
+    // }
+
+
 
     useEffect(() => {
         const sections = document.querySelectorAll('section[id]');
@@ -35,6 +49,9 @@ const Navbar = (props) => {
 
     const [menuClass, setMenuClass] = useState('nav-menu');
 
+    // const toggleMenu = () => {
+    //   setMenuClass(menuClass === 'nav-menu' ? 'nav-menu responsive' : 'nav-menu');
+    // };
 
     // Function to close the menu when a navigation link is clicked
     const closeMenu = () => {
@@ -48,9 +65,9 @@ const Navbar = (props) => {
                    
                     <nav className="row navbar navbar-expand-lg navbar-light align-items-lg-end">
                         <div className="container-fluid">
-                            <Link className="navBar-logo" to="/walls&dreams">
-                                <img src={Logo} alt="walls&dreams" />
-                            </Link>
+                            <a className="navBar-logo" href="#home">
+                                <img src={Logo} alt="" />
+                            </a>
                             <button className="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                                 <span className="toggler-icon top-bar"></span>
                                 <span className="toggler-icon middle-bar"></span>
@@ -59,22 +76,22 @@ const Navbar = (props) => {
                             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul className="navbar-nav ml-auto">
                                     <li className="nav-item">
-                                        <Link className="nav-link active" to="/walls&dreams" onClick={closeMenu}>Home</Link>
+                                        <a className="nav-link active" href="#home" onClick={closeMenu}>Home</a>
                                     </li>
                                     <li className="nav-item">
-                                        <Link className="nav-link" to="/walls&dreams/about" onClick={closeMenu}>About Us</Link>
+                                        <a className="nav-link" href="#about" onClick={closeMenu}>About Us</a>
                                     </li>
                                     <li className="nav-item ">
-                                        <Link className="nav-link dropdown-toggle" to="/walls&dreams/business" onClick={closeMenu}>Our Business</Link>
+                                        <a className="nav-link dropdown-toggle" href="#business" onClick={closeMenu}>Our Business</a>
                                     </li>
                                     <li className="nav-item">
-                                        <Link className="nav-link" to="/walls&dreams/gallery" onClick={closeMenu}>Gallery</Link>
+                                        <a className="nav-link" href="#gallery" onClick={closeMenu}>Gallery</a>
                                     </li>
                                     <li className="nav-item">
-                                        <Link className="nav-link" to="/walls&dreams/careers" onClick={closeMenu}>Careers</Link>
+                                        <a className="nav-link" href="#careers" onClick={closeMenu}>Careers</a>
                                     </li>
                                     <li className="nav-item">
-                                        <Link className="nav-link" to="/walls&dreams/blogs" onClick={closeMenu}>Blogs</Link>
+                                        <a className="nav-link" href="#blogs" onClick={closeMenu}>Blogs</a>
                                     </li>
                                 </ul>
                             <div className="nav-action">
@@ -89,15 +106,15 @@ const Navbar = (props) => {
                                     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
                                         <div class="offcanvas-header">
                                             <h5 id="offcanvasRightLabel">
-                                                <Link className="navBar-logo" to="/">
-                                                    <img src={Logo} alt="cscsa" />
-                                                </Link>
+                                                <a className="navBar-logo" href="#home">
+                                                    <img src={Logo} alt="" />
+                                                </a>
                                             </h5>
                                             <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                                         </div>
                                         <div class="offcanvas-body">
-                                            <h6>Welcome to Walls & Dreams </h6>
-                                            <p>JU Agri Sciences private Limited is a group company of Walls & Dreams.</p>
+                                            <h6>Welcome to Jhaver Group </h6>
+                                            <p>JU Agri Sciences private Limited is a group company of Jhaver Group.</p>
                                             <div className="side-contactInfo">
                                                 <h6>Contact Us</h6>
                                                 <div className="line1"></div>
@@ -144,6 +161,13 @@ const Navbar = (props) => {
                                                     </li>
                                                 </ul>
                                             </div>
+                                            {/* <div className="side-media">
+                                                <div className="media-heading">
+                                                    <h6>Social Media</h6>
+                                                    <div className="line"></div>
+                                                </div>
+                                                <SocialMedia />
+                                            </div> */}
                                         </div>
                                     </div>
                                 </div>
@@ -171,10 +195,10 @@ const Navbar = (props) => {
                                         </svg>
 
                                     </div>
-                                    <Link to="tel: 01204328671">
+                                    <a href="tel: 01204328671">
                                         <p>Have any query?</p>
                                         0120 – 4328671
-                                    </Link>
+                                    </a>
                                 </div>
 
                             </div>

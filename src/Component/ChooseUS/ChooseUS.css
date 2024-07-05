@@ -1,7 +1,13 @@
 .ChooseUS {
   padding: 6rem 0rem;
+  /* background-image: ; */
   width: 100%;
-  background-color: #1d1d1d;
+  /* background-image: url(../../Assets//Images/ChooseUs/choose2.jpg);
+  background-attachment: fixed;
+  object-fit: cover;
+  background-size: cover;
+  background-blend-mode: darken; */
+  background-color: rgb(42 127 37);
 }
 
 .ChooseUS-main {
